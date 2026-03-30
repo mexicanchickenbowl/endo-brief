@@ -6,8 +6,9 @@
   <channel>
     <title>Endo Morning Brief</title>
     <link>https://mexicanchickenbowl.github.io/endo-brief</link>
-    <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated clinical summaries, ABE board relevance, and clinical takeaways — delivered every morning.</description>
+    <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
+    <lastBuildDate>Sun, 29 Mar 2026 08:00:00 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -23,5 +24,15 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>Endo Morning Brief — March 29, 2026</title>
+      <description><![CDATA[10 recent endodontic papers covering: ketorolac for post-RCT pain management, immunomodulatory strategies in vital pulp therapy, resin-modified vs conventional calcium silicate outcomes, hard tissue barrier detection timing, regenerative endo histopathology, bioceramic clinical survey, NiTi glide path meta-analysis, mandibular molar danger zone CBCT geometry, bioceramic sealer retreatment solvent, and laser-activated irrigation vs E. faecalis biofilm.]]></description>
+      <pubDate>Sun, 29 Mar 2026 08:00:00 +0000</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/2026-03-29.mp3" length="6522469" type="audio/mpeg"/>
+      <guid isPermaLink="false">endo-morning-brief-2026-03-29</guid>
+      <itunes:duration>4:32</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
   </channel>
 </rss>
