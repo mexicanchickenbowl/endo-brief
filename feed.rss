@@ -27,7 +27,7 @@
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
     <item>
-      <title>Endo Morning Brief Ã¢ÂÂ March 29, 2026</title>
+      <title>Endo Morning Brief - March 29, 2026</title>
       <description><![CDATA[10 recent endodontic papers covering: ketorolac for post-RCT pain management, immunomodulatory strategies in vital pulp therapy, resin-modified vs conventional calcium silicate outcomes, hard tissue barrier detection timing, regenerative endo histopathology, bioceramic clinical survey, NiTi glide path meta-analysis, mandibular molar danger zone CBCT geometry, bioceramic sealer retreatment solvent, and laser-activated irrigation vs E. faecalis biofilm.]]></description>
       <pubDate>Sun, 29 Mar 2026 08:00:00 +0000</pubDate>
       <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/2026-03-29.mp3" length="6522469" type="audio/mpeg"/>
@@ -35,6 +35,14 @@
       <itunes:duration>4:32</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
+    </item>
+      <item>
+      <title>Endo Morning Brief - March 30, 2026</title>
+      <description>Ten recent papers covering irrigation activation meta-regression, photon-counting CT for VRF diagnosis, NiTi heat treatment advances, hypercementosis management, CMV in periapical lesions, laser-activated irrigation for post bond strength, peracetic acid as a novel irrigant, PANoptosis in pulp inflammation, ion-releasing bioactive glasses for VPT, and hesperetin scaffolds for pulp-dentin regeneration.</description>
+      <pubDate>Mon, 30 Mar 2026 06:00:00 +0000</pubDate>
+      <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/2026-03-30.mp3</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/2026-03-30.mp3" length="7806995" type="audio/mpeg"/>
+      <itunes:duration>5:12</itunes:duration>
     </item>
   </channel>
 </rss>
