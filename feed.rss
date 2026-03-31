@@ -44,5 +44,13 @@
       <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/2026-03-30.mp3" length="7806995" type="audio/mpeg"/>
       <itunes:duration>5:12</itunes:duration>
     </item>
+      <item>
+      <title>ABE Board Review — Single Visit vs Multiple Visit Root Canal Treatment — March 30, 2026</title>
+      <description>Board review of classic endodontic literature on single visit versus multiple visit root canal treatment. Covers landmark papers by Sathorn, Figini, Penesis, Eleazer, Wong, and Mergoni with high-yield board pearls for ABE exam preparation.</description>
+      <pubDate>Mon, 30 Mar 2026 07:00:00 +0000</pubDate>
+      <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-03-30.mp3</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-03-30.mp3" length="11135622" type="audio/mpeg"/>
+      <itunes:duration>10:30</itunes:duration>
+    </item>
   </channel>
 </rss>
