@@ -45,7 +45,7 @@
       <itunes:duration>5:12</itunes:duration>
     </item>
       <item>
-      <title>Endo Morning Brief â March 31, 2026</title>
+      <title>Endo Morning Brief Ã¢ÂÂ March 31, 2026</title>
       <description>Eleven papers covering irrigation activation and postoperative pain, SWEEPS laser and fiber post retention, Er,Cr:YSGG biofilm disinfection, peracetic acid irrigant, smart bioactive glasses for VPT, injectable hydrogels for pulp repair, FOXE1 and PANoptosis in pulpitis, hesperetin scaffolds for regeneration, hypercementosis review, and OCT for vertical root fracture detection.</description>
       <pubDate>Tue, 31 Mar 2026 06:00:00 +0000</pubDate>
       <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/2026-03-31.mp3</guid>
@@ -61,7 +61,7 @@
       <itunes:duration>10:30</itunes:duration>
     </item>
       <item>
-      <title>ABE Board Review — Cleaning and Shaping Principles (Schilder) — March 30, 2026</title>
+      <title>ABE Board Review â Cleaning and Shaping Principles (Schilder) â March 30, 2026</title>
       <description>Board review of classic endodontic literature on cleaning and shaping principles. Covers landmark papers by Schilder, Weine, Abou-Rass, Walia, Marshall and Pappin, and Peters with high-yield board pearls for ABE exam preparation.</description>
       <pubDate>Mon, 30 Mar 2026 07:00:00 +0000</pubDate>
       <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-03-30-cleaning-shaping.mp3</guid>
@@ -69,6 +69,14 @@
         url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-03-30-cleaning-shaping.mp3"
         length="9833261"
         type="audio/mpeg"/>
+      <itunes:duration>10:15</itunes:duration>
+    </item>
+      <item>
+      <title>ABE Board Review — Root Canal Anatomy and Morphology — March 31, 2026</title>
+      <description>Board review of classic endodontic literature on root canal anatomy and morphology. Covers landmark papers by Vertucci, Hess, Weine, Kulild and Peters, de Deus, Pineda and Kuttler, and Ahmed with high-yield board pearls for ABE exam preparation.</description>
+      <pubDate>Tue, 31 Mar 2026 07:00:00 +0000</pubDate>
+      <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-03-31.mp3</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-03-31.mp3" length="9256477" type="audio/mpeg"/>
       <itunes:duration>10:15</itunes:duration>
     </item>
   </channel>
