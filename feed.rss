@@ -45,7 +45,7 @@
       <itunes:duration>5:12</itunes:duration>
     </item>
       <item>
-      <title>Endo Morning Brief ÃÂ¢ÃÂÃÂ March 31, 2026</title>
+      <title>Endo Morning Brief ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ March 31, 2026</title>
       <description>Eleven papers covering irrigation activation and postoperative pain, SWEEPS laser and fiber post retention, Er,Cr:YSGG biofilm disinfection, peracetic acid irrigant, smart bioactive glasses for VPT, injectable hydrogels for pulp repair, FOXE1 and PANoptosis in pulpitis, hesperetin scaffolds for regeneration, hypercementosis review, and OCT for vertical root fracture detection.</description>
       <pubDate>Tue, 31 Mar 2026 06:00:00 +0000</pubDate>
       <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/2026-03-31.mp3</guid>
@@ -61,7 +61,7 @@
       <itunes:duration>10:30</itunes:duration>
     </item>
       <item>
-      <title>ABE Board Review Ã¢ÂÂ Cleaning and Shaping Principles (Schilder) Ã¢ÂÂ March 30, 2026</title>
+      <title>ABE Board Review ÃÂ¢ÃÂÃÂ Cleaning and Shaping Principles (Schilder) ÃÂ¢ÃÂÃÂ March 30, 2026</title>
       <description>Board review of classic endodontic literature on cleaning and shaping principles. Covers landmark papers by Schilder, Weine, Abou-Rass, Walia, Marshall and Pappin, and Peters with high-yield board pearls for ABE exam preparation.</description>
       <pubDate>Mon, 30 Mar 2026 07:00:00 +0000</pubDate>
       <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-03-30-cleaning-shaping.mp3</guid>
@@ -72,7 +72,7 @@
       <itunes:duration>10:15</itunes:duration>
     </item>
       <item>
-      <title>ABE Board Review â Root Canal Anatomy and Morphology â March 31, 2026</title>
+      <title>ABE Board Review Ã¢ÂÂ Root Canal Anatomy and Morphology Ã¢ÂÂ March 31, 2026</title>
       <description>Board review of classic endodontic literature on root canal anatomy and morphology. Covers landmark papers by Vertucci, Hess, Weine, Kulild and Peters, de Deus, Pineda and Kuttler, and Ahmed with high-yield board pearls for ABE exam preparation.</description>
       <pubDate>Tue, 31 Mar 2026 07:00:00 +0000</pubDate>
       <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-03-31.mp3</guid>
@@ -80,12 +80,20 @@
       <itunes:duration>10:15</itunes:duration>
     </item>
       <item>
-      <title>ABE Board Review — Pulp Biology and the Dentin-Pulp Complex — April 01, 2026</title>
-      <description>Board review of classic endodontic literature on pulp biology and the dentin-pulp complex. Covers landmark papers by Brännström, Pashley, Mjör, Smith, Gronthos, and Byers with high-yield board pearls for ABE exam preparation.</description>
+      <title>ABE Board Review â Pulp Biology and the Dentin-Pulp Complex â April 01, 2026</title>
+      <description>Board review of classic endodontic literature on pulp biology and the dentin-pulp complex. Covers landmark papers by BrÃ¤nnstrÃ¶m, Pashley, MjÃ¶r, Smith, Gronthos, and Byers with high-yield board pearls for ABE exam preparation.</description>
       <pubDate>Wed, 01 Apr 2026 07:00:00 +0000</pubDate>
       <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-01.mp3</guid>
       <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-01.mp3" length="11380964" type="audio/mpeg"/>
       <itunes:duration>10:30</itunes:duration>
+    </item>
+      <item>
+      <title>ABE Board Review — Microbiology of Endodontic Infections — April 02, 2026</title>
+      <description>Board review of classic endodontic literature on microbiology of endodontic infections. Covers landmark papers by Kakehashi, Sundqvist, Sjogren, Moller, Fabricius, Bystrom, Siqueira, and Nair with high-yield board pearls for ABE exam preparation.</description>
+      <pubDate>Thu, 02 Apr 2026 07:00:00 +0000</pubDate>
+      <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-02.mp3</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-02.mp3" length="6196180" type="audio/mpeg"/>
+      <itunes:duration>08:30</itunes:duration>
     </item>
   </channel>
 </rss>
