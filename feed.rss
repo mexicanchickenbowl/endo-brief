@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Sun, 29 Mar 2026 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 08:30:00 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -94,6 +94,46 @@
       <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-02.mp3</guid>
       <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-02.mp3" length="6196180" type="audio/mpeg"/>
       <itunes:duration>08:30</itunes:duration>
+    </item>
+    <item>
+      <title>ABE Board Review — Pulp Biology and the Dentin-Pulp Complex — April 08, 2026</title>
+      <description>Board review of classic endodontic literature on pulp biology and the dentin-pulp complex. Covers pulp zones and architecture, odontoblast biology, dentin tubule physiology, primary vs secondary vs tertiary dentin, inflammatory signaling, nociception, and regenerative potential, with high-yield board pearls for ABE exam preparation.</description>
+      <pubDate>Wed, 08 Apr 2026 07:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-08-pulp-biology</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-08-pulp-biology.m4a" length="4425245" type="audio/mp4"/>
+      <itunes:duration>17:39</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Root Canal Irrigants: NaOCl, EDTA, and Chlorhexidine — April 08, 2026</title>
+      <description>Board review of classic endodontic literature on root canal irrigants. Covers sodium hypochlorite concentration and mechanism, EDTA smear layer removal, chlorhexidine substantivity, precipitate formation, irrigation sequencing, activation methods (ultrasonic, sonic, laser), and the hydrodynamic model, with high-yield board pearls for ABE exam preparation.</description>
+      <pubDate>Wed, 08 Apr 2026 07:30:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-08-irrigants</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-08-irrigants.m4a" length="4108451" type="audio/mp4"/>
+      <itunes:duration>16:24</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Regenerative Endodontics and Revascularization — April 08, 2026</title>
+      <description>Board review of classic endodontic literature on regenerative endodontics and revascularization. Covers the biology of immature necrotic teeth, AAE and ESE clinical protocols, scaffold biology, stem cell sources (SCAPs, DPSCs), growth factors, blood clot induction, MTA vs Biodentine cervical barriers, clinical outcomes vs apexification, and long-term follow-up evidence, with high-yield board pearls for ABE exam preparation.</description>
+      <pubDate>Wed, 08 Apr 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-08-regenerative-endo</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-08-regenerative-endo.m4a" length="4800821" type="audio/mp4"/>
+      <itunes:duration>19:11</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Vital Pulp Therapy: Direct Pulp Cap, Pulpotomy, and Biodentine — April 08, 2026</title>
+      <description>Board review of classic endodontic literature on vital pulp therapy. Covers the biological basis for pulp preservation, calcium hydroxide vs MTA vs Biodentine outcomes, the shift from outcome pessimism to the biological approach, case selection criteria (reversible vs irreversible pulpitis), partial pulpotomy (Cvek procedure), full coronal pulpotomy, and landmark clinical trial evidence including the ESSENCE trial, with high-yield board pearls for ABE exam preparation.</description>
+      <pubDate>Wed, 08 Apr 2026 08:30:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-08-vital-pulp-therapy</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-08-vital-pulp-therapy.m4a" length="4791400" type="audio/mp4"/>
+      <itunes:duration>19:08</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
 </rss>
