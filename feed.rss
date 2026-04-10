@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Thu, 09 Apr 2026 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 08:00:00 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,46 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Bioceramic Sealers and MTA — 2026-04-10</title>
+      <description>Board review covering MTA composition and Torabinejad's original research, alkaline pH bioactivity, Biodentine and the ESSENCE trial, clinical applications (VPT, perforation repair, apexification, root-end fill), and bioceramic sealer properties. High-yield ABE board preparation.</description>
+      <pubDate>Fri, 10 Apr 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-mta-bioceramics</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-mta-bioceramics.mp3" length="4048077" type="audio/mpeg"/>
+      <itunes:duration>9:02</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Obturation Principles and Techniques — 2026-04-10</title>
+      <description>Board review covering Schilder's 1967 obturation philosophy, gutta-percha phases, lateral vs warm vertical compaction, carrier-based systems, sealer classification, smear layer management, and apical fill level evidence. High-yield ABE board preparation.</description>
+      <pubDate>Fri, 10 Apr 2026 07:45:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-obturation</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-obturation.mp3" length="4184733" type="audio/mpeg"/>
+      <itunes:duration>9:17</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Endodontic Diagnosis and Pulp Testing — 2026-04-10</title>
+      <description>Board review covering AAE 2009 diagnostic terminology, pulp sensibility vs vitality testing, cold/heat/EPT physiology, percussion and bite testing, CBCT indications, and radiographic interpretation. High-yield ABE board preparation.</description>
+      <pubDate>Fri, 10 Apr 2026 07:30:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-diagnosis-pulp-testing</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-diagnosis-pulp-testing.mp3" length="4115565" type="audio/mpeg"/>
+      <itunes:duration>9:07</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Periapical Pathology and the Immune Response — 2026-04-10</title>
+      <description>Board review covering Kakehashi germfree rat study, acute vs chronic periapical inflammation, granuloma formation, pocket vs true cysts, Nair 1997, RANKL/OPG axis, cytokine cascades, and periapical healing. High-yield ABE board preparation.</description>
+      <pubDate>Fri, 10 Apr 2026 07:15:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-periapical-pathology</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-periapical-pathology.mp3" length="4090125" type="audio/mpeg"/>
+      <itunes:duration>9:04</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Medically Compromised Patients Part 2: Bisphosphonates, Immunosuppression, Renal/Hepatic Disease, and Pregnancy — 2026-04-09</title>
       <description>Board review covering MRONJ and bisphosphonate risk stratification, immunosuppressed patients, drug dosing in renal and hepatic disease, and endodontic management during pregnancy. High-yield ABE board preparation with clinical pearls and rapid-fire review.</description>
