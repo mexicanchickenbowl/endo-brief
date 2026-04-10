@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Fri, 10 Apr 2026 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,46 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Calcium Hydroxide: Mechanism, Antimicrobial Spectrum, and Clinical Evidence — 2026-04-10</title>
+      <description>Board review covering calcium hydroxide chemistry (pH 12.5, hydroxyl ion dissociation), antimicrobial spectrum and limitations against E. faecalis, Sjogren 1997 landmark outcome data, LPS neutralization, dentin weakening controversy, and clinical applications. High-yield ABE board preparation.</description>
+      <pubDate>Fri, 10 Apr 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-calcium-hydroxide</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-calcium-hydroxide.mp3" length="4340421" type="audio/mpeg"/>
+      <itunes:duration>9:39</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Persistent and Secondary Infections: E. faecalis and the Biofilm Concept — 2026-04-10</title>
+      <description>Board review covering persistent vs secondary infection definitions, Enterococcus faecalis survival characteristics, biofilm architecture and resistance (1000-1500x), Nair and Ricucci histologic evidence, Siqueira's four causes of failure, and retreatment strategies. High-yield ABE board preparation.</description>
+      <pubDate>Fri, 10 Apr 2026 11:45:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-persistent-infections</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-persistent-infections.mp3" length="4041069" type="audio/mpeg"/>
+      <itunes:duration>8:56</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Primary Endodontic Infections: Polymicrobial Ecology and Anaerobic Dominance — 2026-04-10</title>
+      <description>Board review covering polymicrobial ecology of the infected canal, Sundqvist's anaerobic culture revolution, dominant genera (Prevotella, Fusobacterium, Porphyromonas, Peptostreptococcus), ecological succession, gram-negative correlation with symptoms, and routes of infection. High-yield ABE board preparation.</description>
+      <pubDate>Fri, 10 Apr 2026 11:30:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-primary-infections</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-primary-infections.mp3" length="3874629" type="audio/mpeg"/>
+      <itunes:duration>8:35</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — The Germfree Rat and Koch's Postulates for Endodontics — 2026-04-10</title>
+      <description>Board review covering Kakehashi 1965 germfree rat experiment, Sundqvist 1976 human confirmation, Moller and Fabricius monkey studies, Koch's postulates applied to polymicrobial endodontic disease, and the Sjogren 1997 culture-outcome correlation. High-yield ABE board preparation.</description>
+      <pubDate>Fri, 10 Apr 2026 11:15:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-germfree-rat</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-germfree-rat.mp3" length="4267197" type="audio/mpeg"/>
+      <itunes:duration>9:27</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Bioceramic Sealers and MTA — 2026-04-10</title>
       <description>Board review covering MTA composition and Torabinejad's original research, alkaline pH bioactivity, Biodentine and the ESSENCE trial, clinical applications (VPT, perforation repair, apexification, root-end fill), and bioceramic sealer properties. High-yield ABE board preparation.</description>
