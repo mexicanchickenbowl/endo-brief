@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Fri, 10 Apr 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 16:00:00 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,46 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — EDTA, Chelation, and the Smear Layer — 2026-04-10</title>
+      <description>Board review covering smear layer composition and the removal debate, EDTA mechanism and 17% standard protocol, optimal contact time, final irrigation sequence (NaOCl-EDTA-NaOCl), growth factor release in regenerative protocols, NaOCl-CHX precipitate, and sealer interaction. High-yield ABE board preparation.</description>
+      <pubDate>Fri, 10 Apr 2026 16:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-edta-smear-layer</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-edta-smear-layer.mp3" length="4004973" type="audio/mpeg"/>
+      <itunes:duration>8:53</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Sodium Hypochlorite: Mechanism, Concentration, and the NaOCl Accident — 2026-04-10</title>
+      <description>Board review covering NaOCl antimicrobial mechanism (chloramination, oxidation), tissue dissolution property, concentration debate, volume and contact time optimization, the NaOCl accident presentation and step-by-step management, and prevention strategies. High-yield ABE board preparation.</description>
+      <pubDate>Fri, 10 Apr 2026 15:45:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-naocl</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-naocl.mp3" length="3804909" type="audio/mpeg"/>
+      <itunes:duration>8:25</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Instrument Separation: Risk Factors, Management, and Prognosis — 2026-04-10</title>
+      <description>Board review covering NiTi separation incidence, cyclic vs torsional failure mechanisms, retrieval vs bypass vs leave-in-place decision tree, Spili/Parashos/Messer outcome evidence, prognostic factors, and prevention strategies. High-yield ABE board preparation.</description>
+      <pubDate>Fri, 10 Apr 2026 15:30:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-instrument-separation</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-instrument-separation.mp3" length="3670221" type="audio/mpeg"/>
+      <itunes:duration>8:06</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — NiTi Metallurgy and Heat Treatment — 2026-04-10</title>
+      <description>Board review covering NiTi superelasticity and austenite-martensite phase transformation, M-Wire, CM Wire, Blue/Gold Wire, MaxWire, cyclic vs torsional fatigue mechanisms, rotary vs reciprocating motion, and clinical implications of heat treatment. High-yield ABE board preparation.</description>
+      <pubDate>Fri, 10 Apr 2026 15:15:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-niti-metallurgy</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-niti-metallurgy.mp3" length="3862485" type="audio/mpeg"/>
+      <itunes:duration>8:32</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Calcium Hydroxide: Mechanism, Antimicrobial Spectrum, and Clinical Evidence — 2026-04-10</title>
       <description>Board review covering calcium hydroxide chemistry (pH 12.5, hydroxyl ion dissociation), antimicrobial spectrum and limitations against E. faecalis, Sjogren 1997 landmark outcome data, LPS neutralization, dentin weakening controversy, and clinical applications. High-yield ABE board preparation.</description>
