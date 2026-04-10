@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Wed, 08 Apr 2026 08:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 02:29:00 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Vital Pulp Therapy: Direct Pulp Capping, Pulpotomy, and the Modern Biologic Approach — 2026-04-09</title>
+      <description>Board review of classic and landmark endodontic literature covering vital pulp therapy: direct pulp capping, pulpotomy, and the modern biologic approach. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Fri, 10 Apr 2026 02:29:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-09-vital-pulp-therapy</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-09-vital-pulp-therapy.mp3" length="21658029" type="audio/mpeg"/>
+      <itunes:duration>22:33</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Endo Morning Brief - March 29, 2026</title>
       <description><![CDATA[10 recent endodontic papers covering: ketorolac for post-RCT pain management, immunomodulatory strategies in vital pulp therapy, resin-modified vs conventional calcium silicate outcomes, hard tissue barrier detection timing, regenerative endo histopathology, bioceramic clinical survey, NiTi glide path meta-analysis, mandibular molar danger zone CBCT geometry, bioceramic sealer retreatment solvent, and laser-activated irrigation vs E. faecalis biofilm.]]></description>
