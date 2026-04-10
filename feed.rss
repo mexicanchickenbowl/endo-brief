@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Fri, 10 Apr 2026 02:29:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 10:00:00 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,46 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Medically Compromised Patients Part 2: Bisphosphonates, Immunosuppression, Renal/Hepatic Disease, and Pregnancy — 2026-04-09</title>
+      <description>Board review covering MRONJ and bisphosphonate risk stratification, immunosuppressed patients, drug dosing in renal and hepatic disease, and endodontic management during pregnancy. High-yield ABE board preparation with clinical pearls and rapid-fire review.</description>
+      <pubDate>Thu, 09 Apr 2026 10:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-09-med-compromised-2</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-09-med-compromised-2.mp3" length="4418829" type="audio/mpeg"/>
+      <itunes:duration>9:44</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Medically Compromised Patients Part 1: Cardiovascular Disease, Anticoagulants, and Diabetes — 2026-04-09</title>
+      <description>Board review covering cardiac prophylaxis under 2007 AHA guidelines, anticoagulant and antiplatelet management (warfarin, DOACs, aspirin/clopidogrel), and diabetes mellitus effects on periapical healing. High-yield ABE board preparation with clinical pearls and rapid-fire review.</description>
+      <pubDate>Thu, 09 Apr 2026 09:45:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-09-med-compromised-1</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-09-med-compromised-1.mp3" length="3596061" type="audio/mpeg"/>
+      <itunes:duration>7:59</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Analgesics and Pain Management in Endodontics — 2026-04-09</title>
+      <description>Board review covering post-endodontic pain pathophysiology, ibuprofen plus acetaminophen multimodal analgesia, preoperative dexamethasone, opioid limitations, flare-up management, and the AAE position on leaving teeth open. High-yield ABE board preparation with rapid-fire review.</description>
+      <pubDate>Thu, 09 Apr 2026 09:30:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-09-analgesics</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-09-analgesics.mp3" length="3573717" type="audio/mpeg"/>
+      <itunes:duration>7:54</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Antibiotics in Endodontics: Indications, Drug Selection, and Stewardship — 2026-04-09</title>
+      <description>Board review covering AAE position on antibiotic use, systemic vs localized infection criteria, first-line and alternative drug selection, cardiac prophylaxis under 2007 AHA guidelines, and antimicrobial stewardship principles. High-yield ABE board preparation with rapid-fire review.</description>
+      <pubDate>Thu, 09 Apr 2026 09:15:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-09-antibiotics</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-09-antibiotics.mp3" length="3476613" type="audio/mpeg"/>
+      <itunes:duration>7:42</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Vital Pulp Therapy: Direct Pulp Capping, Pulpotomy, and the Modern Biologic Approach — 2026-04-09</title>
       <description>Board review of classic and landmark endodontic literature covering vital pulp therapy: direct pulp capping, pulpotomy, and the modern biologic approach. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
