@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Fri, 10 Apr 2026 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 02:08:16 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Dental Trauma Management: Luxations, Avulsions, and Root Fractures — 2026-04-10</title>
+      <description>Board review of classic and landmark endodontic literature covering dental trauma management: luxations, avulsions, and root fractures. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Sat, 11 Apr 2026 02:08:16 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-10-dental-trauma</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-10-dental-trauma.mp3" length="21321261" type="audio/mpeg"/>
+      <itunes:duration>22:12</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — EDTA, Chelation, and the Smear Layer — 2026-04-10</title>
       <description>Board review covering smear layer composition and the removal debate, EDTA mechanism and 17% standard protocol, optimal contact time, final irrigation sequence (NaOCl-EDTA-NaOCl), growth factor release in regenerative protocols, NaOCl-CHX precipitate, and sealer interaction. High-yield ABE board preparation.</description>
