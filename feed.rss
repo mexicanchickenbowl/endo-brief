@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Mon, 13 Apr 2026 02:09:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 02:10:10 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Obturation Principles and Techniques: Schilder, Gutta-Percha, and the Case for Warm Vertical Compaction — 2026-04-13</title>
+      <description>Board review of classic and landmark endodontic literature covering obturation principles and techniques: schilder, gutta-percha, and the case for warm vertical compaction. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Tue, 14 Apr 2026 02:10:10 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-13-obturation-principles</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-13-obturation-principles.mp3" length="19117869" type="audio/mpeg"/>
+      <itunes:duration>19:54</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Biofilms in the Root Canal System — April 13, 2026</title>
       <description>Covers the biofilm model of endodontic infection, including the landmark histologic work of Nair and Ricucci, extraradicular biofilms as a cause of treatment failure, Actinomyces and sulfur granules, and clinical implications for irrigation and interappointment medication.</description>
