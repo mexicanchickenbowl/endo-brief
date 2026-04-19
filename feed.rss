@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Sat, 18 Apr 2026 02:07:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 02:07:57 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Cleaning and Shaping Principles: Schilder's Goals and Modern Evidence — 2026-04-18</title>
+      <description>Board review of classic and landmark endodontic literature covering cleaning and shaping principles: schilder's goals and modern evidence. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Sun, 19 Apr 2026 02:07:57 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-18-cleaning-and-shaping</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-18-cleaning-and-shaping.mp3" length="15606573" type="audio/mpeg"/>
+      <itunes:duration>16:15</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Working Length Determination and Electronic Apex Locators — 2026-04-17</title>
       <description>Board review of classic and landmark endodontic literature covering working length determination and electronic apex locators. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
