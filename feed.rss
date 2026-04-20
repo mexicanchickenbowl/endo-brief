@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Mon, 20 Apr 2026 02:08:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 08:00:00 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,46 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Periapical Cysts: Pocket vs True Cyst, Epithelial Rests of Malassez, and Nair 1997 — April 20, 2026</title>
+      <description>Covers periapical cyst pathogenesis, the three-phase theory of cystic transformation, and the landmark Nair 1997 serial-section study distinguishing pocket cysts (which heal after root canal treatment) from true cysts (which may require surgery). High-yield ABE board preparation.</description>
+      <pubDate>Mon, 20 Apr 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep13-periapical-cysts</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep13_periapical_cysts.mp3" length="4197693" type="audio/mpeg"/>
+      <itunes:duration>9:19</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Acute Periapical Inflammation: PMN Response, Abscess Formation, and Fascial Space Spread — April 20, 2026</title>
+      <description>Covers the cellular cascade from pulp necrosis to periapical abscess, the role of neutrophils and inflammatory mediators, fascial space anatomy and spread pathways, Ludwig's angina, and clinical criteria for systemic involvement. High-yield ABE board preparation.</description>
+      <pubDate>Mon, 20 Apr 2026 07:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep12-acute-periapical-inflammation</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep12_acute_periapical_inflammation.mp3" length="4056021" type="audio/mpeg"/>
+      <itunes:duration>9:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Sampling and Molecular Microbiology: Culture vs PCR vs NGS in Endodontics — April 20, 2026</title>
+      <description>Covers the evolution from anaerobic culture (Sundqvist 1976) through 16S rRNA PCR and clone libraries to next-generation sequencing, explaining how each method changed our understanding of root canal microbiome diversity and the dominance of E. faecalis in persistent infections. High-yield ABE board preparation.</description>
+      <pubDate>Mon, 20 Apr 2026 06:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep11-molecular-microbiology</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep11_molecular_microbiology.mp3" length="4336149" type="audio/mpeg"/>
+      <itunes:duration>9:38</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Lipopolysaccharide and Endotoxin: Mechanism, Bone Resorption, and Neutralization — April 20, 2026</title>
+      <description>Covers LPS structure, the TLR-4 signaling pathway, downstream cytokine production and RANKL-OPG bone resorption, dentinal tubule penetration, and why calcium hydroxide neutralizes LPS while sodium hypochlorite does not. High-yield ABE board preparation.</description>
+      <pubDate>Mon, 20 Apr 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep10-lps-endotoxin</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep10_lps_endotoxin.mp3" length="4473357" type="audio/mpeg"/>
+      <itunes:duration>9:54</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Microbiology of Endodontic Infections — Kakehashi, Sundqvist, and the Microbial Basis of Pulpal and Periapical Disease — 2026-04-19</title>
       <description>Board review of classic and landmark endodontic literature covering microbiology of endodontic infections. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
