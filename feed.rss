@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Sun, 19 Apr 2026 02:07:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 02:08:18 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Microbiology of Endodontic Infections — Kakehashi, Sundqvist, and the Microbial Basis of Pulpal and Periapical Disease — 2026-04-19</title>
+      <description>Board review of classic and landmark endodontic literature covering microbiology of endodontic infections. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Mon, 20 Apr 2026 02:08:18 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-19-microbiology-endodontic-infections</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-19-microbiology-endodontic-infections.mp3" length="18503853" type="audio/mpeg"/>
+      <itunes:duration>19:16</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Cleaning and Shaping Principles: Schilder's Goals and Modern Evidence — 2026-04-18</title>
       <description>Board review of classic and landmark endodontic literature covering cleaning and shaping principles: schilder's goals and modern evidence. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
