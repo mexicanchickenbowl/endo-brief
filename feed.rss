@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Sun, 26 Apr 2026 02:13:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 02:07:17 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Nickel-Titanium Rotary Instrumentation and Metallurgy — 2026-04-26</title>
+      <description>Board review of classic and landmark endodontic literature covering nickel-titanium rotary instrumentation and metallurgy. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Mon, 27 Apr 2026 02:07:17 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-26-niti-rotary-metallurgy</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-26-niti-rotary-metallurgy.mp3" length="19880877" type="audio/mpeg"/>
+      <itunes:duration>20:42</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Endodontic Diagnosis and Pulp Testing — 2026-04-25</title>
       <description>Board review of classic and landmark endodontic literature covering endodontic diagnosis and pulp testing. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
