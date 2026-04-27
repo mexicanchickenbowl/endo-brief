@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Mon, 27 Apr 2026 02:07:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 08:00:00 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,46 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — AAE Diagnostic Terminology — April 27, 2026</title>
+      <description>The 2009 AAE consensus on standardized pulpal and apical diagnostic terminology. Covers the five pulpal diagnoses, the six apical diagnoses, and how to assemble the two-part diagnosis used on boards and in clinical practice.</description>
+      <pubDate>Mon, 27 Apr 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep17-aae-diagnostic-terminology</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep17_aae_diagnostic_terminology.mp3" length="3723117" type="audio/mpeg"/>
+      <itunes:duration>8:18</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Periapical Healing After Treatment — April 27, 2026</title>
+      <description>Outcomes of non-surgical root canal treatment. Covers Strindberg's classic criteria, Friedman's Toronto study with healed/healing/diseased categories, Ng's meta-analyses on prognostic factors, and the role of CBCT in modern outcome assessment.</description>
+      <pubDate>Mon, 27 Apr 2026 07:45:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep16-periapical-healing</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep16_periapical_healing.mp3" length="3827565" type="audio/mpeg"/>
+      <itunes:duration>8:28</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Cytokine and Mediator Cascades — April 27, 2026</title>
+      <description>The molecular machinery driving periapical bone resorption. Covers IL-1 beta, TNF-alpha, prostaglandin E2, matrix metalloproteinases, and the inflammatory-to-healing switch after root canal therapy.</description>
+      <pubDate>Mon, 27 Apr 2026 07:30:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep15-cytokine-cascades</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep15_cytokine_cascades.mp3" length="3586341" type="audio/mpeg"/>
+      <itunes:duration>7:59</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Chronic Periapical Pathology — April 27, 2026</title>
+      <description>Granulomas, the RANKL/OPG axis, and Nair's pocket-versus-true cyst distinction. Covers the cellular composition of chronic apical lesions, the molecular biology of bone resorption, and why some lesions heal after orthograde treatment while others do not.</description>
+      <pubDate>Mon, 27 Apr 2026 07:15:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep14-chronic-periapical-pathology</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep14_chronic_periapical_pathology.mp3" length="3504885" type="audio/mpeg"/>
+      <itunes:duration>7:48</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Nickel-Titanium Rotary Instrumentation and Metallurgy — 2026-04-26</title>
       <description>Board review of classic and landmark endodontic literature covering nickel-titanium rotary instrumentation and metallurgy. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
