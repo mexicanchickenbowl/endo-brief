@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Mon, 27 Apr 2026 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 02:05:55 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Tooth Resorption — Internal, External, and Cervical — 2026-04-27</title>
+      <description>Board review of classic and landmark endodontic literature covering tooth resorption — internal, external, and cervical. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Tue, 28 Apr 2026 02:05:55 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-04-27-tooth-resorption</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-04-27-tooth-resorption.mp3" length="17046573" type="audio/mpeg"/>
+      <itunes:duration>17:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — AAE Diagnostic Terminology — April 27, 2026</title>
       <description>The 2009 AAE consensus on standardized pulpal and apical diagnostic terminology. Covers the five pulpal diagnoses, the six apical diagnoses, and how to assemble the two-part diagnosis used on boards and in clinical practice.</description>
