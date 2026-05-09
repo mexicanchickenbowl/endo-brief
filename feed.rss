@@ -37,6 +37,46 @@
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
+      <title>ABE Board Review — CBCT in Endodontics — May 9, 2026</title>
+      <description>The AAE and AAOMR joint position statement on CBCT use in endodontics: limited field of view principles, specific indications including vertical root fracture detection, resorptive lesions, non-healing pathology, and surgical planning. Covers ALARA, dose comparisons, metal artifacts, and the obligation to interpret the full volume.</description>
+      <pubDate>Sat, 09 May 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep21-cbct_endodontics</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep21_cbct_endodontics.mp3" length="5090037" type="audio/mpeg"/>
+      <itunes:duration>11:16</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Radiographic Interpretation in Endodontics — May 9, 2026</title>
+      <description>Periapical radiographic technique, anatomy of the normal periapex, the thirty to fifty percent bone loss threshold for radiographic detection, condensing osteitis, anatomic mimics of periapical pathology, PAI scoring, and radiographic assessment of healing after root canal treatment.</description>
+      <pubDate>Sat, 09 May 2026 07:45:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep20-radiographic_interpretation</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep20_radiographic_interpretation.mp3" length="4743285" type="audio/mpeg"/>
+      <itunes:duration>10:29</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Pulp Vitality Testing — May 9, 2026</title>
+      <description>The critical distinction between pulp sensibility and vitality: laser Doppler flowmetry (Gazelius 1986), pulse oximetry principles and normal oxygen saturation values, clinical applications in traumatized and immature teeth, and why sensibility tests are unreliable in the first three months after trauma.</description>
+      <pubDate>Sat, 09 May 2026 07:30:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep19-pulp_vitality_testing</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep19_pulp_vitality_testing.mp3" length="5022189" type="audio/mpeg"/>
+      <itunes:duration>11:06</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Pulp Sensibility Testing — May 9, 2026</title>
+      <description>A-delta vs. C fiber physiology, cold testing mechanism and accuracy data (Petersson, Jespersen), electric pulp test limitations as a sensibility-only test, heat testing and lingering pain as a sign of irreversible pulpitis, and the test battery approach to diagnosis.</description>
+      <pubDate>Sat, 09 May 2026 07:15:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep18-pulp_sensibility_testing</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep18_pulp_sensibility_testing.mp3" length="4673733" type="audio/mpeg"/>
+      <itunes:duration>10:20</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>ABE Board Review — Bleeding and Clotting Disorders — 2026-05-07</title>
       <description>Board review covering warfarin and anticoagulant management, LMWH bridging evidence, DOACs, antiplatelet therapy, hemophilia A and B, von Willebrand disease, DDAVP, and antifibrinolytics in endodontic practice. High-yield ABE board preparation.</description>
       <pubDate>Thu, 07 May 2026 06:28:00 +0000</pubDate>
