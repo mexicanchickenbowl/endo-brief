@@ -231,6 +231,45 @@
       .time-label { width: 30px; font-size: 10px; }
       :root { --player-h: 80px; }
     }
+
+    /* ── Listen tracking ── */
+    .episode-card.listened {
+      opacity: 0.65;
+      border-left: 3px solid var(--green);
+    }
+    .listen-badge {
+      width: 26px; height: 26px; border-radius: 50%;
+      background: var(--green); border: none; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px; color: #0f1117; font-weight: 700;
+      flex-shrink: 0; transition: background .15s, transform .1s;
+      margin-left: 8px;
+    }
+    .listen-badge:hover { background: #2dbd8a; transform: scale(1.1); }
+    .listen-badge.unlistened {
+      background: transparent; border: 1.5px solid var(--border);
+      color: var(--muted); font-size: 10px;
+    }
+    .listen-badge.unlistened:hover { border-color: var(--green); color: var(--green); }
+
+    /* Progress bar row */
+    .progress-bar-row {
+      display: flex; align-items: center; gap: 10px; margin-top: 4px;
+      font-size: 12px; color: var(--muted);
+    }
+    .progress-track {
+      flex: 1; height: 6px; background: var(--border);
+      border-radius: 3px; overflow: hidden; min-width: 60px;
+    }
+    .progress-fill { height: 100%; background: var(--gold); border-radius: 3px; transition: width .3s; }
+    .progress-pct { white-space: nowrap; font-size: 12px; color: var(--muted); min-width: 32px; text-align: right; }
+    .reset-link {
+      margin-left: 4px; font-size: 11px; color: var(--muted);
+      background: none; border: none; cursor: pointer; font-family: inherit;
+      padding: 2px 4px; border-radius: 4px; text-decoration: underline;
+      transition: color .15s; flex-shrink: 0;
+    }
+    .reset-link:hover { color: var(--red); }
   </style>
 </head>
 <body>
@@ -263,9 +302,17 @@
         <button class="filter-btn" data-filter="abe">ABE Review</button>
         <button class="filter-btn" data-filter="lit">Lit Spotlight</button>
         <button class="filter-btn" data-filter="brief">Morning Brief</button>
+        <button class="filter-btn" data-filter="listened">✓ Listened</button>
+        <button class="filter-btn" data-filter="unlistened">○ Unlistened</button>
       </div>
     </div>
   </div>
+    <div class="progress-bar-row">
+      <span id="progress-label">Progress: 0 / 0 listened</span>
+      <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+      <span class="progress-pct" id="progress-pct">0%</span>
+      <button class="reset-link" id="reset-btn">Reset all</button>
+    </div>
 </header>
 
 <!-- Episode list -->
@@ -326,6 +373,47 @@
   let activeIdx = null;
   let speedIdx  = 1;  // default 1×
   let isSeeking = false;
+
+  /* ── Listen tracking ── */
+  const listened   = new Set(JSON.parse(localStorage.getItem('endo_listened') || '[]'));
+  const partial    = JSON.parse(localStorage.getItem('endo_partial') || '{}');
+  let listenTimer  = null;
+  let activeGuid   = null;
+  let partialSecs  = 0;
+
+  function saveListened() {
+    localStorage.setItem('endo_listened', JSON.stringify([...listened]));
+  }
+  function savePartial() {
+    localStorage.setItem('endo_partial', JSON.stringify(partial));
+  }
+  function markListened(guid) {
+    if (!guid) return;
+    listened.add(guid);
+    saveListened();
+    renderProgress();
+    renderList(episodes);
+  }
+  function unmarkListened(guid) {
+    if (!guid) return;
+    listened.delete(guid);
+    delete partial[guid];
+    saveListened();
+    savePartial();
+    renderProgress();
+    renderList(episodes);
+  }
+  function renderProgress() {
+    const total = episodes.length;
+    const count = episodes.filter(ep => ep.guid && listened.has(ep.guid)).length;
+    const pct   = total ? Math.round((count / total) * 100) : 0;
+    const lbl = document.getElementById('progress-label');
+    const fill = document.getElementById('progress-fill');
+    const pctEl = document.getElementById('progress-pct');
+    if (lbl)   lbl.textContent   = `Progress: ${count} / ${total} listened`;
+    if (fill)  fill.style.width  = pct + '%';
+    if (pctEl) pctEl.textContent = pct + '%';
+  }
 
   /* ─── DOM refs ─── */
   const $list    = document.getElementById('episode-list');
@@ -396,10 +484,12 @@
         length,
         duration,
         unavailable: (!url || length === 0),
-        tag: getTag(item.querySelector('title')?.textContent?.trim() || ''),
+        tag:  getTag(item.querySelector('title')?.textContent?.trim() || ''),
+        guid: item.querySelector('guid')?.textContent?.trim() || url || `ep-${idx}`,
       };
     });
     renderList(episodes);
+    renderProgress();
     $loading.style.display = 'none';
   }
 
@@ -409,7 +499,9 @@
   function renderList(list) {
     $list.innerHTML = '';
     const visible = list.filter(ep => {
-      if (activeFilter === 'all') return true;
+      if (activeFilter === 'all')         return true;
+      if (activeFilter === 'listened')    return ep.guid && listened.has(ep.guid);
+      if (activeFilter === 'unlistened')  return !ep.guid || !listened.has(ep.guid);
       return ep.tag === activeFilter;
     }).filter(ep => {
       const q = $search.value.trim().toLowerCase();
@@ -424,7 +516,8 @@
 
     visible.forEach(ep => {
       const card = document.createElement('div');
-      card.className = 'episode-card' + (ep.unavailable ? ' unavailable' : '') + (activeIdx === ep.idx ? ' active' : '');
+      const isListened = ep.guid && listened.has(ep.guid);
+      card.className = 'episode-card' + (ep.unavailable ? ' unavailable' : '') + (activeIdx === ep.idx ? ' active' : '') + (isListened ? ' listened' : '');
       card.dataset.idx = ep.idx;
 
       const tag   = ep.tag ? `<span class="tag ${tagMeta[ep.tag].cls}">${tagMeta[ep.tag].label}</span>` : '';
@@ -439,6 +532,8 @@
       const pauseIcon = `<svg viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>`;
       const isPlaying = activeIdx === ep.idx && !audio.paused;
 
+      const badgeCls = isListened ? 'listen-badge' : 'listen-badge unlistened';
+      const badgeTip = isListened ? 'Click to unmark' : 'Mark as listened';
       card.innerHTML = `
         <div class="play-btn">${isPlaying ? pauseIcon : playIcon}</div>
         <div class="ep-body">
@@ -450,10 +545,23 @@
             <span class="ep-date">${formatDate(ep.pubDate)}</span>
             ${sizeStr}${durStr}${nowPlaying}
           </div>
-        </div>`;
+        </div>
+        <button class="${badgeCls}" data-guid="${escHtml(ep.guid||'')}" title="${badgeTip}" aria-label="${badgeTip}">${isListened ? '✓' : '○'}</button>`;
 
       if (!ep.unavailable) {
-        card.addEventListener('click', () => handleCardClick(ep.idx));
+        card.addEventListener('click', e => {
+          if (e.target.closest('.listen-badge')) return; // handled below
+          handleCardClick(ep.idx);
+        });
+      }
+      const badge = card.querySelector('.listen-badge');
+      if (badge) {
+        badge.addEventListener('click', e => {
+          e.stopPropagation();
+          const guid = badge.dataset.guid;
+          if (listened.has(guid)) unmarkListened(guid);
+          else markListened(guid);
+        });
       }
       $list.appendChild(card);
     });
@@ -475,7 +583,11 @@
   function playEpisode(idx) {
     const ep = episodes[idx];
     if (!ep || ep.unavailable) return;
+    // Stop previous listen timer
+    if (listenTimer) { clearInterval(listenTimer); listenTimer = null; }
     activeIdx = idx;
+    activeGuid = ep.guid || null;
+    partialSecs = partial[activeGuid] || 0;
     audio.src = ep.url;
     audio.playbackRate = SPEEDS[speedIdx];
     audio.play();
@@ -483,6 +595,17 @@
     $title.textContent = ep.title;
     updatePlayPauseUI();
     renderList(episodes);
+    // 60-second accumulation timer
+    listenTimer = setInterval(() => {
+      if (audio.paused || !activeGuid) return;
+      if (listened.has(activeGuid)) return;
+      partialSecs++;
+      partial[activeGuid] = partialSecs;
+      if (partialSecs >= 60) {
+        markListened(activeGuid);
+        savePartial();
+      }
+    }, 1000);
     // Scroll card into view
     setTimeout(() => {
       const card = $list.querySelector(`[data-idx="${idx}"]`);
@@ -573,6 +696,17 @@
     if (e.code === 'Space') { e.preventDefault(); togglePlay(); }
     if (e.code === 'ArrowLeft')  audio.currentTime = Math.max(0, audio.currentTime - 15);
     if (e.code === 'ArrowRight') audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 30);
+  });
+
+  /* ─── Reset button ─── */
+  document.getElementById('reset-btn').addEventListener('click', () => {
+    if (!confirm('Reset all listen progress?')) return;
+    listened.clear();
+    Object.keys(partial).forEach(k => delete partial[k]);
+    saveListened();
+    savePartial();
+    renderProgress();
+    renderList(episodes);
   });
 
   /* ─── Boot ─── */
