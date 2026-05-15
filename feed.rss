@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Thu, 14 May 2026 09:16:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 02:07:45 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -29,6 +29,16 @@
     
     
     
+    <item>
+      <title>ABE Board Review — Surgical Endodontics and Microsurgery Outcomes — 2026-05-14</title>
+      <description>Board review of classic and landmark endodontic literature covering surgical endodontics and microsurgery outcomes. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Fri, 15 May 2026 02:07:45 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-05-14-surgical-endodontics-microsurgery</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-05-14-surgical-endodontics-microsurgery.mp3" length="24172077" type="audio/mpeg"/>
+      <itunes:duration>25:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Recent Literature Spotlight — CBCT in Endodontic Diagnosis and Treatment — 2026-05-14</title>
       <description>A review of five landmark recent papers (2015–2025) on CBCT in Endodontic Diagnosis and Treatment. Clinical takeaways and synthesis for the practicing endodontist and ABE board candidate.</description>
