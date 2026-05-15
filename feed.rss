@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Fri, 15 May 2026 09:16:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 10:50:58 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -30,7 +30,15 @@
     
     
     
+    
     <item>
+      <title>Endo Lit Brief — May 15, 2026</title>
+      <description>Daily endodontic literature scan: 10 curated PubMed articles covering recent clinical trials, systematic reviews, and high-impact findings across irrigation, vital pulp therapy, anatomy, instrumentation, pulp biology, and imaging.</description>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/lit-brief-2026-05-15.mp3" length="4623309" type="audio/mpeg"/>
+      <guid isPermaLink="false">lit-brief-2026-05-15</guid>
+      <pubDate>Fri, 15 May 2026 07:30:00 +0000</pubDate>
+      <itunes:episodeType>episodic</itunes:episodeType>
+    </item><item>
       <title>ABE Board Review — Nonsurgical Retreatment — 2026-05-15</title>
       <description>Classic landmark literature review on Nonsurgical Retreatment for ABE board preparation. Covers key papers, board pearls, and high-yield concepts.</description>
       <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-05-15.mp3" length="8112141" type="audio/mpeg"/>
