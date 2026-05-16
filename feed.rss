@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Fri, 15 May 2026 10:50:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 02:05:47 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -31,6 +31,16 @@
     
     
     
+    <item>
+      <title>ABE Board Review — Vital Pulp Therapy — Direct and Indirect Pulp Capping and Pulpotomy — 2026-05-15</title>
+      <description>Board review of classic and landmark endodontic literature covering vital pulp therapy — direct and indirect pulp capping and pulpotomy. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Sat, 16 May 2026 02:05:47 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-05-15-vital-pulp-therapy</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-05-15-vital-pulp-therapy.mp3" length="20537517" type="audio/mpeg"/>
+      <itunes:duration>21:23</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Endo Lit Brief — May 15, 2026</title>
       <description>Daily endodontic literature scan: 10 curated PubMed articles covering recent clinical trials, systematic reviews, and high-impact findings across irrigation, vital pulp therapy, anatomy, instrumentation, pulp biology, and imaging.</description>
