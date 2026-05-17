@@ -478,11 +478,14 @@
   /* ─── Config ─── */
   const RSS_URL = 'https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/feed.rss';
   const SPEEDS  = [0.75, 1, 1.25, 1.5, 2];
-  // Videos are committed under /videos in the repo and served via raw.githubusercontent.com,
-  // which returns Content-Type: video/mp4 with no redirect — unlike release-asset URLs
-  // (302 -> signed CDN with application/octet-stream + Content-Disposition: attachment),
-  // which most browsers refuse to play inline.
-  const VIDEO_BASE = 'https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/videos/';
+  // Videos are committed under /videos and served by GitHub Pages, which sets
+  // Content-Type: video/mp4 with byte-range support. raw.githubusercontent.com
+  // serves mp4 as application/octet-stream with nosniff (browsers refuse), and
+  // release-asset URLs redirect to a short-lived signed CDN URL with
+  // Content-Disposition: attachment, which also breaks <video> playback.
+  // The dashboard runs on the same Pages origin, so this is also same-origin.
+  // Relative path keeps it portable across the Pages domain and any local serve.
+  const VIDEO_BASE = 'videos/';
   // Episodes that have a generated article-card video.
   const VIDEO_GUIDS = new Set([
     'lit-brief-2026-05-17',
