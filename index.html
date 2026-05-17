@@ -68,9 +68,90 @@
     .filter-btn:hover { border-color: var(--gold); color: var(--text); }
     .filter-btn.active { background: var(--gold); border-color: var(--gold); color: #0f1117; }
 
-    /* ── Episode list ── */
-    main { max-width: 780px; margin: 0 auto; padding: 16px 16px calc(var(--player-h) + 24px); }
+    /* ── Two-column layout (list + video panel) ── */
+    .layout {
+      max-width: 1280px; margin: 0 auto;
+      display: flex; gap: 24px;
+      padding: 16px 16px calc(var(--player-h) + 24px);
+      align-items: flex-start;
+    }
+    main { flex: 1; min-width: 0; max-width: 780px; }
     .ep-count { font-size: 12px; color: var(--muted); margin-bottom: 10px; padding: 0 2px; }
+
+    /* ── Video panel ── */
+    aside.video-panel {
+      width: 460px; flex-shrink: 0;
+      position: sticky; top: 140px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; overflow: hidden;
+    }
+    .video-wrap {
+      position: relative; width: 100%;
+      aspect-ratio: 16 / 9; background: #000;
+    }
+    .video-wrap video {
+      width: 100%; height: 100%; display: block; background: #000;
+    }
+    .video-meta {
+      padding: 12px 14px; border-top: 1px solid var(--border);
+      font-size: 12px; color: var(--muted);
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    }
+    .video-meta .vm-title {
+      font-size: 13px; color: var(--text); font-weight: 600;
+      flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .vm-badge {
+      font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 10px;
+      text-transform: uppercase; letter-spacing: 0.4px;
+      background: rgba(240,192,64,0.15); color: var(--gold);
+      border: 1px solid rgba(240,192,64,0.3); white-space: nowrap;
+    }
+    .vm-badge.no-video {
+      background: rgba(136,145,180,0.12); color: var(--muted); border-color: var(--border);
+    }
+    /* Fallback static info card */
+    .video-fallback {
+      width: 100%; height: 100%;
+      background: linear-gradient(135deg, #0f172a 0%, #1a2238 100%);
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      padding: 24px; gap: 16px; text-align: center;
+    }
+    .video-fallback .wave-icon {
+      width: 64px; height: 64px; color: var(--gold); opacity: 0.85;
+    }
+    .video-fallback .fb-title {
+      font-size: 16px; font-weight: 700; color: #f5f5f5;
+      line-height: 1.3; max-width: 90%;
+    }
+    .video-fallback .fb-sub {
+      font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.6px;
+    }
+
+    /* Mobile collapse */
+    .video-toggle {
+      display: none;
+      width: 100%; padding: 10px 14px;
+      background: var(--surface2); border: none; border-bottom: 1px solid var(--border);
+      color: var(--text); font-family: inherit; font-size: 13px; font-weight: 600;
+      cursor: pointer; text-align: left;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .video-toggle .chev { transition: transform .2s; font-size: 16px; color: var(--muted); }
+    aside.video-panel.collapsed .video-toggle .chev { transform: rotate(-90deg); }
+    aside.video-panel.collapsed .video-body { display: none; }
+
+    @media (min-width: 900px) {
+      .video-toggle { display: none !important; }
+    }
+    @media (max-width: 899px) {
+      .layout { flex-direction: column; gap: 16px; }
+      aside.video-panel {
+        width: 100%; position: relative; top: 0;
+      }
+      .video-toggle { display: flex; }
+      /* Auto-collapsed by default on mobile via JS */
+    }
 
     .episode-list { display: flex; flex-direction: column; gap: 6px; }
 
@@ -315,17 +396,47 @@
     </div>
 </header>
 
-<!-- Episode list -->
-<main>
-  <div class="ep-count" id="ep-count"></div>
-  <div class="episode-list" id="episode-list"></div>
-  <div class="empty" id="empty-state" style="display:none">
-    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/>
-    </svg>
-    <p>No episodes match your search.</p>
-  </div>
-</main>
+<!-- Two-column layout: episode list + video panel -->
+<div class="layout">
+  <main>
+    <div class="ep-count" id="ep-count"></div>
+    <div class="episode-list" id="episode-list"></div>
+    <div class="empty" id="empty-state" style="display:none">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/>
+      </svg>
+      <p>No episodes match your search.</p>
+    </div>
+  </main>
+
+  <aside class="video-panel" id="video-panel">
+    <button class="video-toggle" id="video-toggle" type="button" aria-expanded="true">
+      <span>Episode Video</span>
+      <span class="chev">▾</span>
+    </button>
+    <div class="video-body">
+      <div class="video-wrap">
+        <video id="video-el" playsinline preload="metadata" style="display:none"></video>
+        <div class="video-fallback" id="video-fallback">
+          <svg class="wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3"  y1="12" x2="3"  y2="12"/>
+            <line x1="7"  y1="9"  x2="7"  y2="15"/>
+            <line x1="11" y1="6"  x2="11" y2="18"/>
+            <line x1="15" y1="9"  x2="15" y2="15"/>
+            <line x1="19" y1="11" x2="19" y2="13"/>
+            <circle cx="11" cy="12" r="10" stroke-dasharray="3 3" opacity="0.25"/>
+          </svg>
+          <div class="fb-title" id="fb-title">Select an episode to begin</div>
+          <div class="fb-sub" id="fb-sub">Endo Morning Brief</div>
+        </div>
+      </div>
+      <div class="video-meta">
+        <span class="vm-title" id="vm-title">No episode selected</span>
+        <span class="vm-badge no-video" id="vm-badge">Idle</span>
+      </div>
+    </div>
+  </aside>
+</div>
 
 <!-- Sticky player -->
 <div id="player-bar">
@@ -367,6 +478,17 @@
   /* ─── Config ─── */
   const RSS_URL = 'https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/feed.rss';
   const SPEEDS  = [0.75, 1, 1.25, 1.5, 2];
+  const VIDEO_BASE = 'https://github.com/mexicanchickenbowl/endo-brief/releases/download/episode-videos/';
+  // Episodes that have a generated article-card video.
+  const VIDEO_GUIDS = new Set([
+    'lit-brief-2026-05-17',
+    'recent-lit-2026-05-17',
+    'abe-review-2026-05-16-tooth-resorption',
+    'abe-review-2026-05-15-vital-pulp-therapy',
+    'lit-brief-2026-05-15',
+    'abe-review-2026-05-15',
+  ]);
+  const videoUrlFor = guid => VIDEO_GUIDS.has(guid) ? `${VIDEO_BASE}episode_${guid}.mp4` : null;
 
   /* ─── State ─── */
   let episodes = [];
@@ -433,6 +555,101 @@
   const $skFwd   = document.getElementById('skip-fwd-btn');
   const $loading = document.getElementById('loading');
   const audio    = document.getElementById('audio-el');
+  const video    = document.getElementById('video-el');
+  const $vFallback = document.getElementById('video-fallback');
+  const $fbTitle = document.getElementById('fb-title');
+  const $fbSub   = document.getElementById('fb-sub');
+  const $vmTitle = document.getElementById('vm-title');
+  const $vmBadge = document.getElementById('vm-badge');
+  const $vPanel  = document.getElementById('video-panel');
+  const $vToggle = document.getElementById('video-toggle');
+
+  /* ─── A/V sync ─── */
+  // Guard against feedback loops when we mirror one media element's state to the other.
+  let syncing = false;
+  const SEEK_EPSILON = 0.35; // seconds — don't ping-pong on tiny drift
+
+  function showVideo(url) {
+    if (url) {
+      $vFallback.style.display = 'none';
+      video.style.display = '';
+      if (video.src !== url) video.src = url;
+      video.muted = true; // audio comes from <audio>, not <video>
+      video.load();
+    } else {
+      video.pause();
+      video.removeAttribute('src');
+      video.load();
+      video.style.display = 'none';
+      $vFallback.style.display = '';
+    }
+  }
+
+  function setVideoMeta(ep, hasVideo) {
+    $vmTitle.textContent = ep ? ep.title : 'No episode selected';
+    if (!ep) {
+      $vmBadge.textContent = 'Idle';
+      $vmBadge.classList.add('no-video');
+      $fbTitle.textContent = 'Select an episode to begin';
+      $fbSub.textContent = 'Endo Morning Brief';
+    } else if (hasVideo) {
+      $vmBadge.textContent = 'Video';
+      $vmBadge.classList.remove('no-video');
+    } else {
+      $vmBadge.textContent = 'Audio only';
+      $vmBadge.classList.add('no-video');
+      $fbTitle.textContent = ep.title;
+      $fbSub.textContent = formatDate(ep.pubDate);
+    }
+  }
+
+  // Mirror audio → video
+  audio.addEventListener('play',  () => { if (!syncing && video.src) { syncing = true; video.play().catch(()=>{}); syncing = false; }});
+  audio.addEventListener('pause', () => { if (!syncing && video.src) { syncing = true; video.pause(); syncing = false; }});
+  audio.addEventListener('seeked', () => {
+    if (syncing || !video.src || !isFinite(video.duration)) return;
+    if (Math.abs(video.currentTime - audio.currentTime) > SEEK_EPSILON) {
+      syncing = true;
+      try { video.currentTime = Math.min(video.duration, audio.currentTime); } catch {}
+      syncing = false;
+    }
+  });
+  audio.addEventListener('ratechange', () => {
+    if (video.src) video.playbackRate = audio.playbackRate;
+  });
+  // Periodic drift correction so the card transitions stay aligned with audio.
+  audio.addEventListener('timeupdate', () => {
+    if (syncing || !video.src || video.readyState < 2 || !isFinite(video.duration)) return;
+    const drift = Math.abs(video.currentTime - audio.currentTime);
+    if (drift > 1.0) {
+      syncing = true;
+      try { video.currentTime = Math.min(video.duration, audio.currentTime); } catch {}
+      syncing = false;
+    }
+  });
+
+  // Mirror video → audio (only when user interacts with the video element directly)
+  video.addEventListener('play',  () => { if (!syncing && audio.src && audio.paused) { syncing = true; audio.play().catch(()=>{}); syncing = false; }});
+  video.addEventListener('pause', () => { if (!syncing && audio.src && !audio.paused && !audio.ended) { syncing = true; audio.pause(); syncing = false; }});
+  video.addEventListener('seeked', () => {
+    if (syncing || !audio.src) return;
+    if (Math.abs(audio.currentTime - video.currentTime) > SEEK_EPSILON) {
+      syncing = true;
+      try { audio.currentTime = video.currentTime; } catch {}
+      syncing = false;
+    }
+  });
+
+  // Mobile collapse toggle
+  $vToggle.addEventListener('click', () => {
+    $vPanel.classList.toggle('collapsed');
+    $vToggle.setAttribute('aria-expanded', $vPanel.classList.contains('collapsed') ? 'false' : 'true');
+  });
+  // Collapse by default on small screens
+  if (window.matchMedia('(max-width: 899px)').matches) {
+    $vPanel.classList.add('collapsed');
+    $vToggle.setAttribute('aria-expanded', 'false');
+  }
 
   /* ─── Helpers ─── */
   const fmt = s => {
@@ -590,6 +807,10 @@
     partialSecs = partial[activeGuid] || 0;
     audio.src = ep.url;
     audio.playbackRate = SPEEDS[speedIdx];
+    // Load matching video (if any) before audio starts so it can catch up via sync.
+    const vUrl = videoUrlFor(ep.guid);
+    setVideoMeta(ep, !!vUrl);
+    showVideo(vUrl);
     audio.play();
     $bar.classList.add('visible');
     $title.textContent = ep.title;
