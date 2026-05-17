@@ -478,7 +478,11 @@
   /* ─── Config ─── */
   const RSS_URL = 'https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/feed.rss';
   const SPEEDS  = [0.75, 1, 1.25, 1.5, 2];
-  const VIDEO_BASE = 'https://github.com/mexicanchickenbowl/endo-brief/releases/download/episode-videos/';
+  // Videos are committed under /videos in the repo and served via raw.githubusercontent.com,
+  // which returns Content-Type: video/mp4 with no redirect — unlike release-asset URLs
+  // (302 -> signed CDN with application/octet-stream + Content-Disposition: attachment),
+  // which most browsers refuse to play inline.
+  const VIDEO_BASE = 'https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/videos/';
   // Episodes that have a generated article-card video.
   const VIDEO_GUIDS = new Set([
     'lit-brief-2026-05-17',
@@ -573,17 +577,34 @@
     if (url) {
       $vFallback.style.display = 'none';
       video.style.display = '';
-      if (video.src !== url) video.src = url;
       video.muted = true; // audio comes from <audio>, not <video>
+      // Use a <source> child with explicit type hint so the browser doesn't have
+      // to sniff MIME — important when serving from raw.githubusercontent.com.
+      video.innerHTML = '';
+      const src = document.createElement('source');
+      src.src = url;
+      src.type = 'video/mp4';
+      video.appendChild(src);
       video.load();
     } else {
       video.pause();
+      video.innerHTML = '';
       video.removeAttribute('src');
       video.load();
       video.style.display = 'none';
       $vFallback.style.display = '';
     }
   }
+
+  // Surface load errors in the UI rather than failing silently.
+  video.addEventListener('error', () => {
+    const err = video.error;
+    console.warn('video element error', err && err.code, err && err.message, video.currentSrc);
+    $vmBadge.textContent = 'Video error';
+    $vmBadge.classList.add('no-video');
+    video.style.display = 'none';
+    $vFallback.style.display = '';
+  });
 
   function setVideoMeta(ep, hasVideo) {
     $vmTitle.textContent = ep ? ep.title : 'No episode selected';
