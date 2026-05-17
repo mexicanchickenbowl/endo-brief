@@ -89,22 +89,20 @@
       position: relative; width: 100%;
       aspect-ratio: 16 / 9; background: #000;
     }
-
-    .video-wrap { position: relative; }
-    .fs-btn {
-      position: absolute; top: 8px; right: 8px;
-      background: rgba(15,23,42,0.72); border: 1px solid rgba(212,175,55,0.35);
-      border-radius: 6px; padding: 5px 8px; cursor: pointer;
-      font-size: 18px; line-height: 1; color: #d4af37;
-      opacity: 0; transition: opacity 0.2s;
-      z-index: 10;
-    }
-    .video-wrap:hover .fs-btn { opacity: 1; }
-    .video-wrap:fullscreen .fs-btn,
-    .video-wrap:-webkit-full-screen .fs-btn { opacity: 1; }
     .video-wrap video {
       width: 100%; height: 100%; display: block; background: #000;
     }
+    /* Fullscreen toggle button */
+    .fs-btn {
+      position: absolute; top: 8px; right: 8px; z-index: 10;
+      background: rgba(0,0,0,0.55); color: #fff;
+      border: none; border-radius: 6px; padding: 5px 7px;
+      cursor: pointer; opacity: 0; transition: opacity .18s;
+      line-height: 1; display: flex; align-items: center; justify-content: center;
+    }
+    .fs-btn svg { width: 16px; height: 16px; display: block; }
+    .video-wrap:hover .fs-btn { opacity: 1; }
+    .fs-btn:hover { background: rgba(0,0,0,0.8); }
     .video-meta {
       padding: 12px 14px; border-top: 1px solid var(--border);
       font-size: 12px; color: var(--muted);
@@ -429,8 +427,19 @@
     </button>
     <div class="video-body">
       <div class="video-wrap">
-        <button class="fs-btn" id="fs-btn" title="Toggle fullscreen" aria-label="Toggle fullscreen">⛶</button>
         <video id="video-el" playsinline preload="metadata" style="display:none"></video>
+        <button class="fs-btn" id="fs-btn" title="Toggle fullscreen" aria-label="Toggle fullscreen">
+          <!-- expand icon (default) -->
+          <svg id="fs-icon-expand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/>
+            <line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/>
+          </svg>
+          <!-- collapse icon (shown in fullscreen) -->
+          <svg id="fs-icon-collapse" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:none">
+            <polyline points="4 14 10 14 10 20"/><polyline points="20 10 14 10 14 4"/>
+            <line x1="10" y1="14" x2="3" y2="21"/><line x1="21" y1="3" x2="14" y2="10"/>
+          </svg>
+        </button>
         <div class="video-fallback" id="video-fallback">
           <svg class="wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
             <line x1="3"  y1="12" x2="3"  y2="12"/>
@@ -968,33 +977,35 @@
     renderList(episodes);
   });
 
+  /* ─── Fullscreen ─── */
+  const $fsBtn          = document.getElementById('fs-btn');
+  const $fsIconExpand   = document.getElementById('fs-icon-expand');
+  const $fsIconCollapse = document.getElementById('fs-icon-collapse');
+
+  function toggleFullscreen() {
+    if (document.fullscreenElement) {
+      document.exitFullscreen();
+    } else {
+      video.requestFullscreen().catch(() => {});
+    }
+  }
+
+  $fsBtn.addEventListener('click', toggleFullscreen);
+  video.addEventListener('dblclick', toggleFullscreen);
+
+  document.addEventListener('fullscreenchange', () => {
+    const isFs = !!document.fullscreenElement;
+    $fsIconExpand.style.display   = isFs ? 'none' : '';
+    $fsIconCollapse.style.display = isFs ? ''     : 'none';
+    $fsBtn.title = isFs ? 'Exit fullscreen' : 'Toggle fullscreen';
+  });
+
   /* ─── Boot ─── */
   loadFeed().catch(err => {
     $loading.querySelector('.loading-text').textContent = 'Failed to load feed. Check your connection.';
     console.error(err);
   });
 })();
-
-  /* ── Fullscreen ── */
-  const $fsBtn = document.getElementById('fs-btn');
-  const $vWrap = $fsBtn.closest('.video-wrap');
-
-  function toggleFullscreen() {
-    if (document.fullscreenElement) {
-      document.exitFullscreen();
-    } else {
-      $vWrap.requestFullscreen().catch(err => console.warn('FS error:', err));
-    }
-  }
-
-  $fsBtn.addEventListener('click', toggleFullscreen);
-
-  video.addEventListener('dblclick', toggleFullscreen);
-
-  document.addEventListener('fullscreenchange', () => {
-    $fsBtn.textContent = document.fullscreenElement ? '✕' : '⛶';
-  });
-
 </script>
 </body>
 </html>
