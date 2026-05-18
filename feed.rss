@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Mon, 18 May 2026 02:05:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 09:20:14 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -33,7 +33,15 @@
     
     
     
+    
     <item>
+      <title>ABE Board Review — Cracked Tooth Syndrome — 2026-05-18</title>
+      <description>Classic landmark literature review on Cracked Tooth Syndrome for ABE board preparation. Covers Cameron 1964, the AAE fracture classification, Krell &amp; Rivera 2007, Sim 2016, Krell &amp; Caplan Iowa Staging Index 2018, Wu 2019, and Zhang 2024 meta-analysis. Board pearls, prognostic factors, and modern outcome data.</description>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-05-18.mp3" length="5906061" type="audio/mpeg"/>
+      <guid isPermaLink="false">abe-review-2026-05-18-cracked-tooth-syndrome</guid>
+      <pubDate>Mon, 18 May 2026 05:00:00 +0000</pubDate>
+      <itunes:episodeType>episodic</itunes:episodeType>
+    </item><item>
       <title>ABE Board Review — NiTi Rotary Instrumentation: Metallurgy and Kinematics — May 18, 2026</title>
       <description>Episode 29. The nitinol alloy and its austenite-to-martensite phase transformation, superelasticity (Walia 1988), thermally treated alloys (M Wire, Gold Wire, CM Wire), rotation versus reciprocation (Wave One, Reciproc), torsional versus cyclic fatigue separation (Sattapan), and the critical role of the glide path.</description>
       <pubDate>Mon, 18 May 2026 07:00:00 +0000</pubDate>
