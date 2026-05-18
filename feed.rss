@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Sun, 17 May 2026 23:17:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 02:05:07 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -33,6 +33,16 @@
     
     
     
+    <item>
+      <title>ABE Board Review — Tooth Resorption: Internal, External, and Invasive Cervical — 2026-05-17</title>
+      <description>Board review of classic and landmark endodontic literature covering tooth resorption: internal, external, and invasive cervical. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Mon, 18 May 2026 02:05:07 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-05-17-tooth-resorption</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-05-17-tooth-resorption.mp3" length="16581549" type="audio/mpeg"/>
+      <itunes:duration>17:16</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Endo Lit Brief — May 17, 2026</title>
       <description>Daily endodontic literature scan: 8-12 curated PubMed articles covering recent clinical trials, systematic reviews, and high-impact findings across all major endo sub-topics.</description>
