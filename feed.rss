@@ -9,7 +9,14 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Tue, 26 May 2026 23:53:09 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 23:57:20 -0000</lastBuildDate>
+  <item>
+    <title>Endo Pharmacology — Methemoglobinemia — 2026-05-26</title>
+    <description>This episode covers methemoglobinemia in the dental office: prilocaine and benzocaine as triggers, the chocolate-brown blood and stuck pulse-ox findings, and methylene blue treatment with G6PD and serotonergic-drug caveats. Mechanisms, dosing thresholds, and board-relevant pearls for the endodontic resident.</description>
+    <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/pharma-2026-05-26.mp3" length="4681437" type="audio/mpeg"/>
+    <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/pharma-2026-05-26.mp3</guid>
+    <pubDate>Tue, 26 May 2026 23:57:20 -0000</pubDate>
+  </item>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
