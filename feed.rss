@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Tue, 26 May 2026 10:53:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 23:53:09 GMT</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>Endo Pharma Brief — Antibiotic Stewardship in Endodontics: AAE Guidelines and When Not to Prescribe — 2026-05-26</title>
+      <description>AAE 2019 position statement on antibiotics, amoxicillin vs penicillin VK, indications for prescribing, systemic vs local infection, and the resistance crisis.</description>
+      <pubDate>Tue, 26 May 2026 23:52:41 GMT</pubDate>
+      <guid isPermaLink="false">pharma-2026-05-26-antibiotic-stewardship-endo</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/pharma-2026-05-26-antibiotic-stewardship-endo.mp3" length="1265709" type="audio/mpeg"/>
+      <itunes:duration>2:49</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     
     
     
