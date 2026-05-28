@@ -9,22 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Wed, 27 May 2026 09:25:25 +0000</lastBuildDate>
-  
-    <item>
-      <title>ABE Board Review — Prognosis &amp; Outcome Studies — 2026-05-27</title>
-      <description>Classic landmark literature review on Prognosis and Outcome Studies for ABE board preparation. Covers the Toronto Study series, Ng systematic reviews, Salehrabi and Rotstein epidemiologic data, the endo-versus-implant comparison, and the foundational Sjogren 1990 long-term outcomes paper. Includes board pearls and high-yield concepts.</description>
-      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-05-27.mp3" length="6630669" type="audio/mpeg"/>
-      <guid isPermaLink="false">abe-review-2026-05-27</guid>
-      <pubDate>Wed, 27 May 2026 05:00:00 +0000</pubDate>
-      <itunes:episodeType>episodic</itunes:episodeType>
-    </item><item>
-    <title>Endo Pharmacology — Methemoglobinemia — 2026-05-26</title>
-    <description>This episode covers methemoglobinemia in the dental office: prilocaine and benzocaine as triggers, the chocolate-brown blood and stuck pulse-ox findings, and methylene blue treatment with G6PD and serotonergic-drug caveats. Mechanisms, dosing thresholds, and board-relevant pearls for the endodontic resident.</description>
-    <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/pharma-2026-05-26.mp3" length="4681437" type="audio/mpeg"/>
-    <guid>https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/pharma-2026-05-26.mp3</guid>
-    <pubDate>Tue, 26 May 2026 23:57:20 -0000</pubDate>
-  </item>
+    <lastBuildDate>Thu, 28 May 2026 11:02:46 GMT</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -41,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>Endo Pharma Brief — Epinephrine in Local Anesthetics: Cardiac Implications and Contraindications — 2026-05-28</title>
+      <description>Vasoconstrictors in endo, epinephrine dose limits, pheochromocytoma, hyperthyroidism, beta-blockers, ADHD stimulants, and the 1:100,000 vs 1:50,000 debate.</description>
+      <pubDate>Thu, 28 May 2026 11:02:21 GMT</pubDate>
+      <guid isPermaLink="false">pharma-2026-05-28-epinephrine-local-anesthetics-cardiac</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/pharma-2026-05-28-epinephrine-local-anesthetics-cardiac.mp3" length="1325949" type="audio/mpeg"/>
+      <itunes:duration>2:58</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Endo Pharma Brief — Antibiotic Stewardship in Endodontics: AAE Guidelines and When Not to Prescribe — 2026-05-26</title>
       <description>AAE 2019 position statement on antibiotics, amoxicillin vs penicillin VK, indications for prescribing, systemic vs local infection, and the resistance crisis.</description>
