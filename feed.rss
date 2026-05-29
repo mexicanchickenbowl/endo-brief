@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Thu, 28 May 2026 11:02:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 09:21:48 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,7 +26,15 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    
     <item>
+      <title>ABE Board Review — Oral Board Case Presentation Prep — 2026-05-29</title>
+      <description>Classic landmark literature review on Oral Board Case Presentation Prep for ABE board preparation. Covers key papers, board pearls, and high-yield concepts.</description>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-05-29.mp3" length="6837741" type="audio/mpeg"/>
+      <guid isPermaLink="false">abe-review-2026-05-29</guid>
+      <pubDate>Fri, 29 May 2026 05:00:00 +0000</pubDate>
+      <itunes:episodeType>episodic</itunes:episodeType>
+    </item><item>
       <title>Endo Pharma Brief — Epinephrine in Local Anesthetics: Cardiac Implications and Contraindications — 2026-05-28</title>
       <description>Vasoconstrictors in endo, epinephrine dose limits, pheochromocytoma, hyperthyroidism, beta-blockers, ADHD stimulants, and the 1:100,000 vs 1:50,000 debate.</description>
       <pubDate>Thu, 28 May 2026 11:02:21 GMT</pubDate>
