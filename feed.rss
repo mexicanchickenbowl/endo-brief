@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Sun, 31 May 2026 10:50:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 02:07:04 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -30,6 +30,16 @@
     
     
     
+    <item>
+      <title>ABE Board Review — Pulp Biology and the Dentin-Pulp Complex — 2026-05-31</title>
+      <description>Board review of classic and landmark endodontic literature covering pulp biology and the dentin-pulp complex. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Mon, 01 Jun 2026 02:07:04 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-05-31-pulp-biology</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-05-31-pulp-biology.mp3" length="20236461" type="audio/mpeg"/>
+      <itunes:duration>21:04</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Endo Lit Brief — May 31, 2026</title>
       <description>Daily endodontic literature scan: 11 curated PubMed articles covering recent clinical trials, systematic reviews, and high-impact findings across irrigation, vital pulp therapy, instrumentation, biofilms, and resorption.</description>
