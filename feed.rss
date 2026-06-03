@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Tue, 02 Jun 2026 11:02:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 02:06:05 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Cone Beam Computed Tomography in Endodontics — 2026-06-02</title>
+      <description>Board review of classic and landmark endodontic literature covering cone beam computed tomography in endodontics. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Wed, 03 Jun 2026 02:06:05 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-06-02-cbct-endodontics</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-06-02-cbct-endodontics.mp3" length="16977069" type="audio/mpeg"/>
+      <itunes:duration>17:40</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Endo Pharma Brief — Anticoagulant Patients in Endodontics: INR, DOACs, and Bleeding Risk Management — 2026-06-02</title>
       <description>Warfarin, direct oral anticoagulants, INR thresholds, bridging therapy controversies, and managing bleeding risk during endodontic procedures.</description>
