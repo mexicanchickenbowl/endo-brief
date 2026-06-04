@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Thu, 04 Jun 2026 09:16:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 11:03:04 GMT</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -67,6 +67,16 @@
       <guid isPermaLink="false">abe-review-2026-06-02-cbct-endodontics</guid>
       <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-06-02-cbct-endodontics.mp3" length="16977069" type="audio/mpeg"/>
       <itunes:duration>17:40</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Endo Pharma Brief — Bisphosphonates, MRONJ Risk, and Endodontic Decision-Making — 2026-06-04</title>
+      <description>Mechanism of bisphosphonates, MRONJ pathophysiology, IV vs oral risk stratification, AAOMS staging, and how to counsel patients facing endo vs extraction.</description>
+      <pubDate>Thu, 04 Jun 2026 11:02:38 GMT</pubDate>
+      <guid isPermaLink="false">pharma-2026-06-04-bisphosphonates-mronj-endo</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/pharma-2026-06-04-bisphosphonates-mronj-endo.mp3" length="1280061" type="audio/mpeg"/>
+      <itunes:duration>2:48</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
