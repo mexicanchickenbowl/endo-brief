@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Thu, 04 Jun 2026 02:07:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 09:16:26 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -28,7 +28,15 @@
     </image>
     
     
+    
     <item>
+      <title>ABE Board Review — Working Length Determination — 2026-06-04</title>
+      <description>Classic landmark literature review on Working Length Determination for ABE board preparation. Covers key papers, board pearls, and high-yield concepts.</description>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-06-04.mp3" length="6520653" type="audio/mpeg"/>
+      <guid isPermaLink="false">abe-review-2026-06-04</guid>
+      <pubDate>Thu, 04 Jun 2026 05:00:00 +0000</pubDate>
+      <itunes:episodeType>episodic</itunes:episodeType>
+    </item><item>
       <title>ABE Board Review — Regenerative Endodontics and Revascularization — 2026-06-03</title>
       <description>Board review of classic and landmark endodontic literature covering regenerative endodontics and revascularization. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
       <pubDate>Thu, 04 Jun 2026 02:07:22 +0000</pubDate>
