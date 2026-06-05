@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Fri, 05 Jun 2026 02:10:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 09:13:40 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -30,7 +30,15 @@
     
     
     
+    
     <item>
+      <title>Recent Literature Spotlight — Single-Visit vs Multi-Visit Root Canal Treatment — 2026-06-05</title>
+      <description>A review of five landmark recent papers (2015–2025) on Single-Visit vs Multi-Visit Root Canal Treatment. Clinical takeaways and synthesis for the practicing endodontist and ABE board candidate.</description>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/recent-lit-2026-06-05.mp3" length="6007437" type="audio/mpeg"/>
+      <guid isPermaLink="false">recent-lit-2026-06-05</guid>
+      <pubDate>Fri, 05 Jun 2026 05:00:00 +0000</pubDate>
+      <itunes:episodeType>episodic</itunes:episodeType>
+    </item><item>
       <title>ABE Board Review — Periapical Pathology and the Host Immune Response — 2026-06-04</title>
       <description>Board review of classic and landmark endodontic literature covering periapical pathology and the host immune response. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
       <pubDate>Fri, 05 Jun 2026 02:10:07 +0000</pubDate>
