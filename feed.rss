@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Sun, 07 Jun 2026 02:05:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 09:13:43 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,7 +26,15 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    
     <item>
+      <title>Recent Literature Spotlight — Root Resorption Diagnosis and Management — 2026-06-07</title>
+      <description>A review of five landmark recent papers (2015-2025) on Root Resorption Diagnosis and Management. Clinical takeaways and synthesis for the practicing endodontist and ABE board candidate.</description>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/recent-lit-2026-06-07.mp3" length="5562477" type="audio/mpeg"/>
+      <guid isPermaLink="false">recent-lit-2026-06-07</guid>
+      <pubDate>Sun, 07 Jun 2026 05:00:00 +0000</pubDate>
+      <itunes:episodeType>episodic</itunes:episodeType>
+    </item><item>
       <title>ABE Board Review - Microbiology of Endodontic Infections: Kakehashi, Sundqvist, and Sjogren - 2026-06-06</title>
       <description>Board review of classic and landmark endodontic literature covering microbiology of endodontic infections: kakehashi, sundqvist, and sjogren. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
       <pubDate>Sun, 07 Jun 2026 02:05:44 +0000</pubDate>
