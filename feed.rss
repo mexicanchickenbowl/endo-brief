@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Sun, 07 Jun 2026 09:13:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 11:04:17 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -27,7 +27,15 @@
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
     
+    
     <item>
+      <title>Endo Lit Brief — June 07, 2026</title>
+      <description>Daily endodontic literature scan: 8-12 curated PubMed articles covering recent clinical trials, systematic reviews, and high-impact findings across all major endo sub-topics.</description>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/lit-brief-2026-06-07.mp3" length="3894669" type="audio/mpeg"/>
+      <guid isPermaLink="false">lit-brief-2026-06-07</guid>
+      <pubDate>Sun, 07 Jun 2026 07:30:00 +0000</pubDate>
+      <itunes:episodeType>episodic</itunes:episodeType>
+    </item><item>
       <title>Recent Literature Spotlight — Root Resorption Diagnosis and Management — 2026-06-07</title>
       <description>A review of five landmark recent papers (2015-2025) on Root Resorption Diagnosis and Management. Clinical takeaways and synthesis for the practicing endodontist and ABE board candidate.</description>
       <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/recent-lit-2026-06-07.mp3" length="5562477" type="audio/mpeg"/>
