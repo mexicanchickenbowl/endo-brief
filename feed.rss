@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Mon, 08 Jun 2026 02:06:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 09:14:04 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -28,7 +28,15 @@
     </image>
     
     
+    
     <item>
+      <title>ABE Board Review &#8212; Bioceramics, MTA & Calcium Silicate &#8212; 2026-06-08</title>
+      <description>Classic landmark literature review on Bioceramics, MTA & Calcium Silicate for ABE board preparation. Covers key papers, board pearls, and high-yield concepts.</description>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-06-08.mp3" length="6540813" type="audio/mpeg"/>
+      <guid isPermaLink="false">abe-review-2026-06-08</guid>
+      <pubDate>Mon, 08 Jun 2026 05:00:00 +0000</pubDate>
+      <itunes:episodeType>episodic</itunes:episodeType>
+    </item><item>
       <title>ABE Board Review — Restoration of the Endodontically Treated Tooth — June 8, 2026</title>
       <description>Episode 37. Restoring the endodontically treated tooth: why these teeth fracture (loss of structure, not dehydration — Sedgley and Messer 1992; Reeh, Messer and Douglas 1989), the ferrule effect (Sorensen and Engelman 1990), the truth that posts only retain cores rather than strengthen teeth, and the case for cuspal coverage of posterior teeth (Aquilino and Caplan 2002).</description>
       <pubDate>Mon, 08 Jun 2026 08:03:00 +0000</pubDate>
