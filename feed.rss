@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Sun, 07 Jun 2026 11:04:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 02:06:17 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -28,6 +28,16 @@
     </image>
     
     
+    <item>
+      <title>ABE Board Review — Intracanal Medicaments and Calcium Hydroxide — 2026-06-07</title>
+      <description>Board review of classic and landmark endodontic literature covering intracanal medicaments and calcium hydroxide. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Mon, 08 Jun 2026 02:06:17 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-06-07-calcium-hydroxide</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-06-07-calcium-hydroxide.mp3" length="19536813" type="audio/mpeg"/>
+      <itunes:duration>20:20</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Endo Lit Brief — June 07, 2026</title>
       <description>Daily endodontic literature scan: 8-12 curated PubMed articles covering recent clinical trials, systematic reviews, and high-impact findings across all major endo sub-topics.</description>
