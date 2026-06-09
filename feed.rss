@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Tue, 09 Jun 2026 02:08:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 10:49:11 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -30,7 +30,15 @@
     
     
     
+    
     <item>
+      <title>Endo Lit Brief — June 09, 2026</title>
+      <description>Daily endodontic literature scan: 8-12 curated PubMed articles covering recent clinical trials, systematic reviews, and high-impact findings across all major endo sub-topics.</description>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/lit-brief-2026-06-09.mp3" length="3958605" type="audio/mpeg"/>
+      <guid isPermaLink="false">lit-brief-2026-06-09</guid>
+      <pubDate>Tue, 09 Jun 2026 07:30:00 +0000</pubDate>
+      <itunes:episodeType>episodic</itunes:episodeType>
+    </item><item>
       <title>ABE Board Review — Root Canal Anatomy and Morphology — 2026-06-08</title>
       <description>Board review of classic and landmark endodontic literature covering root canal anatomy and morphology. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
       <pubDate>Tue, 09 Jun 2026 02:08:33 +0000</pubDate>
