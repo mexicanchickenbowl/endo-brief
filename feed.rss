@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Wed, 10 Jun 2026 10:47:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 11:03:16 GMT</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>Endo Pharma Brief — Immunocompromised Patients in Endodontics: HIV, Transplants, and Biologics — 2026-06-10</title>
+      <description>CD4 count thresholds, transplant immunosuppression, biologics and TNF-alpha inhibitors, infection risk stratification, and antibiotic prophylaxis controversies.</description>
+      <pubDate>Wed, 10 Jun 2026 11:02:53 GMT</pubDate>
+      <guid isPermaLink="false">pharma-2026-06-10-immunocompromised-patients-endo</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/pharma-2026-06-10-immunocompromised-patients-endo.mp3" length="1305765" type="audio/mpeg"/>
+      <itunes:duration>2:52</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     
     
     
