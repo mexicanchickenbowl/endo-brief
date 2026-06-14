@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Sun, 14 Jun 2026 10:49:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 11:02:55 GMT</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -67,6 +67,16 @@
       <guid isPermaLink="false">abe-review-2026-06-10-post-and-core</guid>
       <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-06-10-post-and-core.mp3" length="15605421" type="audio/mpeg"/>
       <itunes:duration>16:15</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Endo Pharma Brief — Drug Dosing in Renal and Hepatic Impairment: What Every Endo Resident Must Know — 2026-06-14</title>
+      <description>eGFR-based dose adjustments, NSAIDs in renal disease, acetaminophen in hepatic impairment, metronidazole and lidocaine hepatic metabolism, and the Child-Pugh framework.</description>
+      <pubDate>Sun, 14 Jun 2026 11:02:32 GMT</pubDate>
+      <guid isPermaLink="false">pharma-2026-06-14-renal-hepatic-impairment-dosing</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/pharma-2026-06-14-renal-hepatic-impairment-dosing.mp3" length="1357869" type="audio/mpeg"/>
+      <itunes:duration>3:01</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
