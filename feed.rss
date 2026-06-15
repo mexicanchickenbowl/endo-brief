@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Mon, 15 Jun 2026 02:06:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 10:48:57 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -28,7 +28,15 @@
     </image>
     
     
+    
     <item>
+      <title>Endo Lit Brief — June 15, 2026</title>
+      <description>Daily endodontic literature scan: 10 curated PubMed articles covering vital pulp therapy guidelines, retreatment instrumentation, AI in endo, resistant pathogens, maxillary sinus complications, and regenerative endodontics.</description>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/lit-brief-2026-06-15.mp3" length="5814477" type="audio/mpeg"/>
+      <guid isPermaLink="false">lit-brief-2026-06-15</guid>
+      <pubDate>Mon, 15 Jun 2026 07:30:00 +0000</pubDate>
+      <itunes:episodeType>episodic</itunes:episodeType>
+    </item><item>
       <title>ABE Board Review — Pain Management and Endodontic Flare-Ups — 2026-06-14</title>
       <description>Board review of classic and landmark endodontic literature covering pain management and endodontic flare-ups. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
       <pubDate>Mon, 15 Jun 2026 02:06:13 +0000</pubDate>
