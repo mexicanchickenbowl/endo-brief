@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Mon, 15 Jun 2026 10:48:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 11:02:36 GMT</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>Endo Pharma Brief — Corticosteroids in Endodontics: Systemic Patients, Adrenal Suppression, and Flare Prevention — 2026-06-16</title>
+      <description>HPA axis suppression, steroid supplementation controversy, dexamethasone for post-op pain, intracanal corticosteroid pastes, and managing the flare-up patient.</description>
+      <pubDate>Tue, 16 Jun 2026 11:02:12 GMT</pubDate>
+      <guid isPermaLink="false">pharma-2026-06-16-corticosteroids-endo-adrenal</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/pharma-2026-06-16-corticosteroids-endo-adrenal.mp3" length="1318725" type="audio/mpeg"/>
+      <itunes:duration>2:55</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     
     
     
