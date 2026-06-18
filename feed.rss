@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Wed, 17 Jun 2026 02:07:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 11:02:20 GMT</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -27,12 +27,12 @@
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
     <item>
-      <title>ABE Board Review — Cleaning and Shaping the Root Canal System: Schilder's Principles and Classic Techniques — 2026-06-16</title>
-      <description>Board review of classic and landmark endodontic literature covering cleaning and shaping the root canal system: schilder's principles and classic techniques. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
-      <pubDate>Wed, 17 Jun 2026 02:07:30 +0000</pubDate>
-      <guid isPermaLink="false">abe-review-2026-06-16-cleaning-shaping-schilder</guid>
-      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-06-16-cleaning-shaping-schilder.mp3" length="15288237" type="audio/mpeg"/>
-      <itunes:duration>15:55</itunes:duration>
+      <title>Endo Pharma Brief — Anxiolysis in Endodontics: Triazolam, Hydroxyzine, and Nitrous Oxide Protocols — 2026-06-18</title>
+      <description>Pharmacology of oral sedation options, triazolam dosing, hydroxyzine mechanism, nitrous contraindications, and the spectrum from minimal to moderate sedation.</description>
+      <pubDate>Thu, 18 Jun 2026 11:01:55 GMT</pubDate>
+      <guid isPermaLink="false">pharma-2026-06-18-anxiolysis-triazolam-hydroxyzine-nitrous</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/pharma-2026-06-18-anxiolysis-triazolam-hydroxyzine-nitrous.mp3" length="1393269" type="audio/mpeg"/>
+      <itunes:duration>3:06</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
