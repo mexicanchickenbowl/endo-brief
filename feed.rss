@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Sat, 20 Jun 2026 11:04:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 10:57:54 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,14 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>Endo Lit Brief — June 22, 2026</title>
+      <description>Daily endodontic literature scan: 12 curated PubMed articles covering a new CARES classification system for dens invaginatus, the EFCD-ESE-ORCA S3 deep caries guideline, rotary vs. reciprocating retreatment pain, root canal irrigant testing protocols, AI-assisted obturation quality assessment, long-term outcomes after nonsurgical root canal treatment, maxillary sinus communications, cemental tear as an apical periodontitis mimic, microcrack formation in endodontic microsurgery, irrigant activation in internal resorption, and restorative material selection over calcium silicates.</description>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/lit-brief-2026-06-22.mp3" length="4159341" type="audio/mpeg"/>
+      <guid isPermaLink="false">lit-brief-2026-06-22</guid>
+      <pubDate>Mon, 22 Jun 2026 10:57:54 +0000</pubDate>
+      <itunes:episodeType>episodic</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Vertical Root Fractures and Cracked Tooth Syndrome — 2026-06-22</title>
       <description>Classification of tooth cracks from craze lines through split tooth and vertical root fracture, risk factors in endodontically treated teeth, the halo lesion radiographic sign, diagnostic tools including the bite test and transillumination, and prognosis-driven management decisions.</description>
