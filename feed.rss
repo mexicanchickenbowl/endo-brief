@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Tue, 23 Jun 2026 02:05:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 11:02:47 GMT</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -27,12 +27,12 @@
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
     <item>
-      <title>ABE Board Review — Vertical Root Fractures — Diagnosis and Management — 2026-06-22</title>
-      <description>Board review of classic and landmark endodontic literature covering vertical root fractures — diagnosis and management. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
-      <pubDate>Tue, 23 Jun 2026 02:05:34 +0000</pubDate>
-      <guid isPermaLink="false">abe-review-2026-06-22-vertical-root-fractures</guid>
-      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-06-22-vertical-root-fractures.mp3" length="16659117" type="audio/mpeg"/>
-      <itunes:duration>17:21</itunes:duration>
+      <title>Endo Pharma Brief — Clindamycin Resistance in Oral Infections: Why It Is No Longer First-Line — 2026-06-24</title>
+      <description>Rising clindamycin resistance among oral anaerobes, C. difficile colitis risk, AAE 2019 update, and what to prescribe instead for penicillin-allergic patients.</description>
+      <pubDate>Wed, 24 Jun 2026 11:02:26 GMT</pubDate>
+      <guid isPermaLink="false">pharma-2026-06-24-clindamycin-resistance-no-longer-firstline</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/pharma-2026-06-24-clindamycin-resistance-no-longer-firstline.mp3" length="1167525" type="audio/mpeg"/>
+      <itunes:duration>2:36</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
