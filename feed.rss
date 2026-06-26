@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Thu, 25 Jun 2026 02:06:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 11:03:19 GMT</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -27,12 +27,12 @@
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
     <item>
-      <title>ABE Board Review — Lasers in Endodontics: Erbium YAG, Diode Lasers, and Photobiomodulation — 2026-06-24</title>
-      <description>Board review of classic and landmark endodontic literature covering lasers in endodontics: erbium yag, diode lasers, and photobiomodulation. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
-      <pubDate>Thu, 25 Jun 2026 02:06:01 +0000</pubDate>
-      <guid isPermaLink="false">abe-review-2026-06-24-lasers-in-endodontics</guid>
-      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-06-24-lasers-in-endodontics.mp3" length="17408685" type="audio/mpeg"/>
-      <itunes:duration>18:07</itunes:duration>
+      <title>Endo Pharma Brief — ADHD Medications and Vasoconstrictors: Managing Stimulant-Epinephrine Interactions — 2026-06-26</title>
+      <description>Amphetamines, methylphenidate, and catecholamine potentiation; epinephrine dose limits in ADHD patients; clinical monitoring and appointment considerations.</description>
+      <pubDate>Fri, 26 Jun 2026 11:02:57 GMT</pubDate>
+      <guid isPermaLink="false">pharma-2026-06-26-adhd-meds-vasoconstrictors</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/pharma-2026-06-26-adhd-meds-vasoconstrictors.mp3" length="1204389" type="audio/mpeg"/>
+      <itunes:duration>2:40</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
