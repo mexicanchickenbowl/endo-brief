@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Wed, 15 Jul 2026 02:05:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 02:12:09 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Bioceramic Sealers and MTA: From Mineral Trioxide Aggregate to Modern Hydraulic Calcium Silicates — 2026-07-16</title>
+      <description>Board review of classic and landmark endodontic literature covering bioceramic sealers and mta: from mineral trioxide aggregate to modern hydraulic calcium silicates. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Fri, 17 Jul 2026 02:12:09 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-07-16-bioceramic-sealers-mta</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-07-16-bioceramic-sealers-mta.mp3" length="13365549" type="audio/mpeg"/>
+      <itunes:duration>13:55</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Bleaching of Endodontically Treated Teeth — 2026-07-14</title>
       <description>Board review of classic and landmark endodontic literature covering bleaching of endodontically treated teeth. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
