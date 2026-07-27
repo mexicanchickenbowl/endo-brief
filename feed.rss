@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Mon, 27 Jul 2026 02:06:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 08:05:00 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,46 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Surgical Endodontics: Indications, Flap Design, and Root-End Management — July 27, 2026</title>
+      <description>Episode 45. Endodontic surgery from indications to healing assessment: the traditional versus microsurgical comparison (Setzer 2010 and 2012 — roughly 94 percent versus 59 percent success), why the bevel dropped to 0-10 degrees and resection settled at 3mm, ultrasonic root-end preparation and the isthmus (Hsu and Kim), flap selection including Ochsenbein-Luebke and Velvart's papilla base incision, root-end materials from amalgam to MTA (Chong 2003), and the Rud/Molven healing criteria.</description>
+      <pubDate>Mon, 27 Jul 2026 08:03:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep45-surgical-endodontics-principles</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep45_surgical_endodontics_principles.mp3" length="4787469" type="audio/mpeg"/>
+      <itunes:duration>10:34</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Apexification and Management of the Open Apex — July 27, 2026</title>
+      <description>Episode 44. Apexogenesis versus apexification versus regeneration, and how to choose. Frank's 1966 calcium hydroxide technique and its 6-24 month burden, Andreasen 2002 on calcium hydroxide weakening root dentin, the single-visit MTA apical barrier (Witherspoon 2008, ~94 percent healing), correct barrier thickness, and reinforcing the thin cervical root against fracture.</description>
+      <pubDate>Mon, 27 Jul 2026 08:02:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep44-apexification-open-apex</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep44_apexification_open_apex.mp3" length="4203717" type="audio/mpeg"/>
+      <itunes:duration>9:18</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Regenerative Endodontics and Revascularization — July 27, 2026</title>
+      <description>Episode 43. The necrotic immature tooth: stem cells of the apical papilla, why triple antibiotic paste must be diluted to ~1 mg/mL (Ruparel 2012), the irrigation sequence that preserves stem cell viability (Martin 2014), the AAE protocol step by step, and the critical board point that the tissue formed is cementum-like and bone-like, not true pulp (Wang 2010).</description>
+      <pubDate>Mon, 27 Jul 2026 08:01:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep43-regenerative-endodontics</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep43_regenerative_endodontics.mp3" length="4471005" type="audio/mpeg"/>
+      <itunes:duration>9:56</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Vital Pulp Therapy: Pulp Capping and Pulpotomy — July 27, 2026</title>
+      <description>Episode 42. Why vital pulp therapy is being rehabilitated for mature teeth with irreversible pulpitis: Kakehashi 1965 and the germ-free rat, Ricucci 2014 on the poor correlation between clinical diagnosis and pulpal histology, hemostasis as the real chairside test, Cvek's partial pulpotomy, full pulpotomy outcomes, and MTA versus calcium hydroxide.</description>
+      <pubDate>Mon, 27 Jul 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep42-vital-pulp-therapy</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep42_vital_pulp_therapy.mp3" length="4147749" type="audio/mpeg"/>
+      <itunes:duration>9:15</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Endodontic-Periodontic Lesions: Pathways, Classification, and Prognosis — 2026-07-26</title>
       <description>Board review of classic and landmark endodontic literature covering endodontic-periodontic lesions: pathways, classification, and prognosis. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
@@ -153,6 +193,46 @@
       <guid isPermaLink="false">pharma-2026-06-22-sickle-cell-endo</guid>
       <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/pharma-2026-06-22-sickle-cell-endo.mp3" length="1275213" type="audio/mpeg"/>
       <itunes:duration>2:49</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Vertical Root Fractures and Cracked Tooth Syndrome — June 22, 2026</title>
+      <description>Episode 41. The crack spectrum from craze line to split tooth, why the J-shaped or halo lesion and the isolated deep narrow probing defect are the classic vertical root fracture signs, the limits of CBCT in the presence of a root filling, transillumination and staining, and prognosis-driven treatment decisions.</description>
+      <pubDate>Mon, 22 Jun 2026 08:03:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep41-vertical-root-fractures-cracked-tooth</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep41_vertical_root_fractures_cracked_tooth.mp3" length="3799581" type="audio/mpeg"/>
+      <itunes:duration>8:26</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Root Resorption — June 22, 2026</title>
+      <description>Episode 40. Internal versus external resorption: loss of the protective precementum and predentin layers as the initiating event, distinguishing internal inflammatory resorption from external cervical resorption radiographically and with CBCT, Heithersay's classification, and management including the role of calcium hydroxide and calcium silicate repair.</description>
+      <pubDate>Mon, 22 Jun 2026 08:02:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep40-root-resorption</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep40_root_resorption.mp3" length="3980829" type="audio/mpeg"/>
+      <itunes:duration>8:48</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Dental Trauma: Luxation Injuries and Avulsion — June 22, 2026</title>
+      <description>Episode 39. The IADT-aligned approach to luxation and avulsion: extra-oral dry time as the dominant prognostic variable, storage media, why replantation timing governs the risk of ankylosis and replacement resorption, splinting type and duration, and when to initiate endodontic treatment.</description>
+      <pubDate>Mon, 22 Jun 2026 08:01:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep39-dental-trauma-luxation-avulsion</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep39_dental_trauma_luxation_avulsion.mp3" length="3665181" type="audio/mpeg"/>
+      <itunes:duration>8:08</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Endodontic-Periodontic Relationships — June 22, 2026</title>
+      <description>Episode 38. Communication pathways between pulp and periodontium — apical foramen, lateral and accessory canals, dentinal tubules — the Simon classification of endo-perio lesions, the diagnostic primacy of pulp testing, and why sequencing endodontic treatment first determines the true periodontal prognosis.</description>
+      <pubDate>Mon, 22 Jun 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep38-endo-perio-relationships</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep38_endo_perio_relationships.mp3" length="3618405" type="audio/mpeg"/>
+      <itunes:duration>8:02</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
