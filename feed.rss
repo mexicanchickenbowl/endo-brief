@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Mon, 03 Aug 2026 02:07:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 08:06:00 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,46 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Root Resection, Hemisection, and Bicuspidization — August 3, 2026</title>
+      <description>Episode 49. The molar salvage procedures and how to keep them straight: root resection on maxillary molars, hemisection and bicuspidization on mandibular molars. Case selection and the contraindications examiners test, sequencing endodontics before resection, eliminating the root stump, and occlusal reduction. Langer 1981 (38 percent failure at ten years, clustered in years five to seven from vertical root fracture and caries) reconciled against Basten 1996 and Fugazzotto 2001.</description>
+      <pubDate>Mon, 03 Aug 2026 08:06:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep49-root-resection-hemisection</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep49_root_resection_hemisection.mp3" length="4002189" type="audio/mpeg"/>
+      <itunes:duration>8:52</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Intentional Replantation and Autotransplantation — August 3, 2026</title>
+      <description>Episode 48. Periodontal ligament cell survival governs both procedures, and the technique follows from it: atraumatic extraction, extraoral time under ten minutes, Hank's balanced salt solution, no socket curettage, flexible splinting. Grossman and Bender-Rossman at 80 percent versus Cho 2016 and the Torabinejad 2015 systematic review near 90 percent, plus Andreasen's Copenhagen premolar series and the one-half to three-quarters root development rule.</description>
+      <pubDate>Mon, 03 Aug 2026 08:04:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep48-intentional-replantation-autotransplantation</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep48_intentional_replantation_autotransplantation.mp3" length="4275285" type="audio/mpeg"/>
+      <itunes:duration>9:26</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Guided Endodontic Surgery, Piezosurgery, and Bone Grafting — August 3, 2026</title>
+      <description>Episode 47. The technology layer on top of microsurgical fundamentals. Targeted endodontic microsurgery (Kim 2018-2019) using CBCT plus intraoral scan and a printed trephine guide, reported accuracy near one millimeter, and dynamic navigation as the alternative. Piezosurgery's selective cutting at 25-30 kHz and why it spares nerves and the sinus membrane. When guided tissue regeneration actually helps: through-and-through and apicomarginal defects, not small contained lesions.</description>
+      <pubDate>Mon, 03 Aug 2026 08:02:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep47-guided-surgery-piezo-grafting</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep47_guided_surgery_piezo_grafting.mp3" length="4132365" type="audio/mpeg"/>
+      <itunes:duration>9:08</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>ABE Board Review — Root-End Filling Materials and Microsurgical Outcomes — August 3, 2026</title>
+      <description>Episode 46. Grossman's criteria for the ideal root-end filling material and the walk from amalgam through IRM and Super EBA to MTA (Torabinejad 1993-1995) and the bioceramic putties. The Setzer meta-analyses and the two numbers to know cold: 59 percent for traditional surgery versus 94 percent for contemporary microsurgery. Why head-to-head material comparisons show no difference, and why the bevel angle and ultrasonic isthmus preparation are what actually drive the outcome.</description>
+      <pubDate>Mon, 03 Aug 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="false">abe-ep46-root-end-filling-materials</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/ep46_root_end_filling_materials.mp3" length="4007205" type="audio/mpeg"/>
+      <itunes:duration>8:51</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Endodontic Diagnosis and Pulp Testing — 2026-08-02</title>
       <description>Board review of classic and landmark endodontic literature covering endodontic diagnosis and pulp testing. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
