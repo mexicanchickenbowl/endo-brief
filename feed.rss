@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Mon, 03 Aug 2026 08:06:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 02:06:47 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Dental Trauma Management: Luxations, Avulsions, and Root Fractures — 2026-08-04</title>
+      <description>Board review of classic and landmark endodontic literature covering dental trauma management: luxations, avulsions, and root fractures. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Wed, 05 Aug 2026 02:06:47 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-08-04-dental-trauma</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-08-04-dental-trauma.mp3" length="18956589" type="audio/mpeg"/>
+      <itunes:duration>19:44</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Root Resection, Hemisection, and Bicuspidization — August 3, 2026</title>
       <description>Episode 49. The molar salvage procedures and how to keep them straight: root resection on maxillary molars, hemisection and bicuspidization on mandibular molars. Case selection and the contraindications examiners test, sequencing endodontics before resection, eliminating the root stump, and occlusal reduction. Langer 1981 (38 percent failure at ten years, clustered in years five to seven from vertical root fracture and caries) reconciled against Basten 1996 and Fugazzotto 2001.</description>
