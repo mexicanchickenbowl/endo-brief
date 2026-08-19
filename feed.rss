@@ -9,7 +9,7 @@
     <description>Daily endodontic literature briefing for an endodontic specialty resident. Curated PubMed summaries with clinical takeaways and ABE board relevance.</description>
     <language>en-us</language>
     <managingEditor>nvbrooks18@gmail.com (Endo Morning Brief)</managingEditor>
-    <lastBuildDate>Mon, 17 Aug 2026 02:07:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 02:07:04 +0000</lastBuildDate>
     <atom:link href="https://mexicanchickenbowl.github.io/endo-brief/feed.rss" rel="self" type="application/rss+xml"/>
     <itunes:author>Endo Morning Brief</itunes:author>
     <itunes:owner>
@@ -26,6 +26,16 @@
       <title>Endo Morning Brief</title>
       <link>https://mexicanchickenbowl.github.io/endo-brief</link>
     </image>
+    <item>
+      <title>ABE Board Review — Pulp Biology and the Dentin-Pulp Complex — 2026-08-18</title>
+      <description>Board review of classic and landmark endodontic literature covering pulp biology and the dentin-pulp complex. High-yield ABE board preparation with landmark papers and clinical pearls.</description>
+      <pubDate>Wed, 19 Aug 2026 02:07:04 +0000</pubDate>
+      <guid isPermaLink="false">abe-review-2026-08-18-pulp-biology-dentin-pulp-complex</guid>
+      <enclosure url="https://raw.githubusercontent.com/mexicanchickenbowl/endo-brief/main/episodes/abe-review-2026-08-18-pulp-biology-dentin-pulp-complex.mp3" length="26991405" type="audio/mpeg"/>
+      <itunes:duration>28:06</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>ABE Board Review — Outcome Studies and Survival Analysis — August 17, 2026</title>
       <description>The distinction between biologic healing and tooth survival, and why outcome studies report such divergent success rates. Reviews Strindberg's criteria, the Periapical Index, the Friedman and Mor vocabulary, the Sjogren studies, the Ng and Gulabivala systematic reviews, and large database survival data. Includes the survival analysis vocabulary of censoring, Kaplan-Meier curves, and Cox regression.</description>
